@@ -17,7 +17,7 @@
         return dataPoints;
     }
     	 
-    $.get("https://canvasjs.com/services/data/datapoints.php?xstart=5&ystart=10&length=10&type=csv", function(data) {
+    $.get("https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Zufriedenheit/Stadtverwaltung%2C%20Kommunalpolitik%20und%20Kommunalfinanzen_Zufriedenheit%20mit%20den%20Lebensbedingungen.csv", function(data) {
         var chart = new CanvasJS.Chart("chartContainer", {
             title: {
     	    text: "Chart from CSV",
