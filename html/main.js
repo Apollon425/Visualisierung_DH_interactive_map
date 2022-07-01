@@ -1,11 +1,6 @@
 
 function makeChart(players) {
-  // players is an array of objects where each object is something like:
-  // {
-  //   "Name": "Steffi Graf",
-  //   "Weeks": "377",
-  //   "Gender": "Female"
-  // }
+
 
   var playerLabels = players.map(function(d) {
     return d.Name;
