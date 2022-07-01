@@ -1,41 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
-        <meta charset="utf-8">
-        <style>
-            table {
-                border-collapse: collapse;
-                border: 2px black solid;
-                font: 12px sans-serif;
-            }
+        <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
 
-            td {
-                border: 1px black solid;
-                padding: 5px;
-            }
-        </style>
+<script src="Chart.min.js"> </script>
+<script src="d3.min.js"> </script>
+<script src="main.js"> </script>
     </head>
-    <body>
-        <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
-        <script src="d3.min.js?v=3.2.8"></script>
 
-        <script type="text/javascript"charset="utf-8">
-            d3.text("Visualisierung_DH_interactive_map/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv ", function(data) {
-                var parsedCSV = d3.csv.parseRows(data);
+<body>
 
-                var container = d3.select("body")
-                    .append("table")
+<div id="title">Which tennis player was No.1 the longest?</div>
+<div id="legend">
+  <div class="item female">Women</div>
+  <div class="item male">Men</div>
+</div>
+<div id="chart-wrapper">
+  <canvas id="chart"></canvas>
+</div>
+<div id="footer">
+  <div class="left" ><a href="https://createwithdata.com/chartjs-and-csv/" target="_blank">About</a></div>
+  <div class="right">Source: <a href="https://public.tableau.com/en-us/s/resources" target="_blank">Tableau</a> / Wikipedia</div>
+</div>
 
-                    .selectAll("tr")
-                        .data(parsedCSV).enter()
-                        .append("tr")
-
-                    .selectAll("td")
-                        .data(function(d) { return d; }).enter()
-                        .append("td")
-                        .text(function(d) { return d; });
-            });
-        </script>
-        TEST
-    </body>
-</html>
