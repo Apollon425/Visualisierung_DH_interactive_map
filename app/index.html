@@ -10,26 +10,12 @@
 	<!-- <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" /> -->
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
-
+	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Vegetation Leipzig</title>
 
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}
-		.leaflet-container {
-			height: 400px;
-			width: 600px;
-			max-width: 100%;
-			max-height: 100%;
-		}
-	</style>
 
-	<style>#map { width: 800px; height: 500px; }
-.info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
-.legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
+
 </head>
 
 
@@ -37,14 +23,10 @@
 
 <div id='map'></div>
 <script type="text/javascript" src="sbz.js"></script>
-<!-- <script>window.alert(geodata_bezirke.properties)</script> -->
-
-
-<!-- <script type="text/javascript" src="us-states.js"></script> -->
 
 <script type="text/javascript">
 
-    var map = L.map('map').setView([51.34, 12.36], 12);
+    var map = L.map('map').setView([51.34, 12.36], 11);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 13,
@@ -54,7 +36,7 @@
 
     
 
-	// control that shows state info on hover
+	// control that shows bezirk/ot info on hover
 	var info = L.control();
 
 	info.onAdd = function (map) {
@@ -167,8 +149,6 @@
 	// legend.addTo(map);
 
 </script>
-
-
 
 </body>
 </html>
