@@ -2,9 +2,9 @@ import pandas as pd
 from pathlib import Path
 import glob
 import sys
+import json
 
 PATH = "data/Einkommen/"
-print(PATH)
 
 def get_files(PATH):
     filenames = (glob.glob(PATH+"*"+".csv"))
@@ -25,6 +25,47 @@ def change_to_csv_with_commas():
         df.to_csv(path_or_buf=file, sep=",")
 
 
+def read_json_to_df():
+    # df = pd.read_json('sbz.json')
+    # print(df)
+    with open('C:\\Users\\richa\\OneDrive\\Studium\\Digital Humanities\\Master\\2. Semester\\Visualisierung für Digital Humanities\\Praktikum\\Projekt\\Visualisierung_DH_interactive_map\\app\\sbz.json', 'r') as f:
+        data = json.load(f)
+
+    
+    
+    for i in range(0, len(data["features"])):
+        print(data["features"][i]["properties"])
+        print(data["features"][i]["properties"]["Name"])
+
+    sys.exit()
+
+def add_ndvi_to_geojson():
+    df = pd.read_csv('data/NDVI/2019/sbz_ndvi.csv')
+    name = df['Name']
+    ndvi = df['NDVI']
+    with open('C:\\Users\\richa\\OneDrive\\Studium\\Digital Humanities\\Master\\2. Semester\\Visualisierung für Digital Humanities\\Praktikum\\Projekt\\Visualisierung_DH_interactive_map\\app\\sbz.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    for index, name in enumerate(name):
+        print("Name Außen: " + name)
+
+        for i in range(0, len(data["features"])):
+            print("index innen: " + str(i))
+            print(data["features"][i]["properties"]["Name"])
+            if name == data["features"][i]["properties"]["Name"]:
+                print("match!!!!!!!!!")
+                data["features"][i]["properties"]["NDVI"] = ndvi[index]
+                break;
+
+                
+
+    for i in range(0, len(data["features"])):
+        print(data["features"][i]["properties"])
+
+    with open('C:\\Users\\richa\\OneDrive\\Studium\\Digital Humanities\\Master\\2. Semester\\Visualisierung für Digital Humanities\\Praktikum\\Projekt\\Visualisierung_DH_interactive_map\\app\\sbz.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False)
 
 if __name__ == '__main__':
-    change_to_csv_with_commas()
+    #change_to_csv_with_commas()
+    #read_json_to_df()
+    add_ndvi_to_geojson()
