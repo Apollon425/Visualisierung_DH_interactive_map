@@ -9,7 +9,7 @@ html, body {
     max-height: 100%;
 }
 
-#map { width: 800px; height: 100%; }
+#map { width: 65%; height: 100%; }
 
 .info { padding: 6px 8px; 
     font: 14px/16px Arial, Helvetica, sans-serif; 
