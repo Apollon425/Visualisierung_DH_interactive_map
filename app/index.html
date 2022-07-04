@@ -37,8 +37,22 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
     subdomains:['mt0','mt1','mt2','mt3']
 });
 
+	/* global statesData */
+	ortsteile = L.geoJson(data_ortsteile, {
+		style: style,
+		onEachFeature: onEachFeature
+	})
 
-var map = L.map('map', {layers: [standard_base_layer]}).setView([51.34, 12.36], 11);
+	bezirke = L.geoJson(data_stadtbezirke, {
+		style: style,
+		onEachFeature: onEachFeature
+	});
+
+	var ortsteile_layer = L.layerGroup([ortsteile]);
+	var bezirke_layer = L.layerGroup([bezirke]);
+
+
+var map = L.map('map', {layers: [standard_base_layer, bezirke_layer]}).setView([51.34, 12.36], 11);
 
 
 
@@ -101,10 +115,10 @@ var map = L.map('map', {layers: [standard_base_layer]}).setView([51.34, 12.36], 
 		info.update(layer.feature.properties);
 	}
 
-	var geojson;
+	//var geojson;
 
 	function resetHighlight(e) {
-		geojson.resetStyle(e.target);
+		ortsteile.resetStyle(e.target);
 		info.update();
 	}
 
@@ -120,16 +134,7 @@ var map = L.map('map', {layers: [standard_base_layer]}).setView([51.34, 12.36], 
 		});
 	}
 
-	/* global statesData */
-	geojson = L.geoJson(data_ortsteile, {
-		style: style,
-		onEachFeature: onEachFeature
-	}).addTo(map);
 
-	geojson = L.geoJson(data_stadtbezirke, {
-		style: style,
-		onEachFeature: onEachFeature
-	}).addTo(map);
 
 	map.attributionControl.addAttribution('Satellite data for NDVI &copy; <a href="http://esa.gov/">European Space Agency</a>');
 
@@ -139,8 +144,15 @@ var map = L.map('map', {layers: [standard_base_layer]}).setView([51.34, 12.36], 
     "Street Map": standard_base_layer,
     "Satellite": satellite
 };
+
+	var overlayMaps = {
+		"Bezirke": bezirke_layer,
+		"Ortsteile": ortsteile_layer
+	};
+
     
-	var layerControl = L.control.layers(baseMaps).addTo(map);
+	var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+
 
 
 
