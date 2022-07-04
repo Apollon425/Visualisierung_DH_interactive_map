@@ -7,6 +7,8 @@
 	
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
 	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+	<!-- <script src="https://unpkg.com/leaflet@1.8.0/src/layer/Layer.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script> -->
+	
 	<link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Vegetation Leipzig</title>
 
@@ -15,19 +17,30 @@
 <body>
 
 <div id='map'></div>
+<script type="text/javascript" src="ot.js"></script>
 <script type="text/javascript" src="sbz.js"></script>
 
 <script type="text/javascript">
 
-    var map = L.map('map').setView([51.34, 12.36], 11);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 13,
-        minZoom: 5,
-        attribution: '© OpenStreetMap'
-    }).addTo(map);
 
-    
+standard_base_layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 13,
+	minZoom: 5,
+	attribution: '© OpenStreetMap'
+});
+
+satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+    maxZoom: 13,
+	minZoom: 6,
+	attribution: '© Google',
+    subdomains:['mt0','mt1','mt2','mt3']
+});
+
+
+var map = L.map('map', {layers: [standard_base_layer]}).setView([51.34, 12.36], 11);
+
+
 
 	// control that shows bezirk/ot info on hover
 	var info = L.control();
@@ -55,7 +68,7 @@
 			d > 0.5  ? '#41ae76' :
 			d > 0.45  ? '#66c2a4' :
 			d > 0.4   ? '#99d8c9' :
-			d > 0.35   ? '#ccece6' : '#FFEDA0';
+			d > 0.35   ? '#ccece6' : '#fcfcfa';
 
 	}
 
@@ -108,12 +121,31 @@
 	}
 
 	/* global statesData */
-	geojson = L.geoJson(data_bezirke, {
+	geojson = L.geoJson(data_ortsteile, {
 		style: style,
 		onEachFeature: onEachFeature
 	}).addTo(map);
 
-	map.attributionControl.addAttribution('Vegetation data &copy; <a href="http://esa.gov/">European Space Agency</a>');
+	geojson = L.geoJson(data_stadtbezirke, {
+		style: style,
+		onEachFeature: onEachFeature
+	}).addTo(map);
+
+	map.attributionControl.addAttribution('Satellite data for NDVI &copy; <a href="http://esa.gov/">European Space Agency</a>');
+
+	/*Layer control*/
+
+	var baseMaps = {
+    "Street Map": standard_base_layer,
+    "Satellite": satellite
+};
+    
+	var layerControl = L.control.layers(baseMaps).addTo(map);
+
+
+
+
+
 
 
 	// var legend = L.control({position: 'bottomright'});
@@ -139,7 +171,7 @@
 	// };
 
 	// legend.addTo(map);
-
+	
 </script>
 
 </body>
