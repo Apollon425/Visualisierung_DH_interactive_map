@@ -52,7 +52,7 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 	var bezirke_layer = L.layerGroup([bezirke]);
 
 
-var map = L.map('map', {layers: [standard_base_layer, bezirke_layer]}).setView([51.34, 12.36], 11);
+	var map = L.map('map', {layers: [standard_base_layer, bezirke_layer]}).setView([51.34, 12.36], 11);
 
 
 
@@ -66,8 +66,9 @@ var map = L.map('map', {layers: [standard_base_layer, bezirke_layer]}).setView([
 	};
 
 	info.update = function (properties) {
+		
 		this._div.innerHTML = '<h4>Bezirk/Ortsteil:</h4>' +  (properties ?
-			'<b>' + properties.Name + '</b><br />' + properties.NDVI : 'Hover over a state');
+			'<b>' + properties.Name + '</b><br />' + properties.NDVI : 'Hover over a map section');
 	};
 
 	info.addTo(map);
