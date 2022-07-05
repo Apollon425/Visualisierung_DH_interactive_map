@@ -7,7 +7,6 @@ standard_base_layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y
 satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
     maxZoom: 13,
 	minZoom: 6,
-	attribution: '© Google',
     subdomains:['mt0','mt1','mt2','mt3']
 });
 
@@ -25,7 +24,7 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 	var ortsteile_layer = L.layerGroup([ortsteile]);
 	var bezirke_layer = L.layerGroup([bezirke]);
 
-
+    // initialize map
 	var map = L.map('map', {layers: [standard_base_layer, bezirke_layer]}).setView([51.34, 12.36], 11);
 
 
@@ -84,9 +83,6 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 			fillOpacity: 0.7
 		});
 
-		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-			layer.bringToFront();
-		}
 
 		info.update(layer.feature.properties);
 	}
@@ -108,8 +104,6 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 			click: zoomToFeature
 		});
 	}
-
-
 
 	map.attributionControl.addAttribution('Satellite data for NDVI &copy; <a href="http://esa.gov/">European Space Agency</a>');
 
@@ -139,7 +133,6 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 
 		var div = L.DomUtil.create('div', 'info legend');
 		var ndvi_grades = [0, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65];
-		//var grades = [0.65, 0.6, 0.55, 0.5, 0.45, 0.4, 0.35, 0.3, 0.25, 0];
 
 		var labels = ['<strong>NDVI color scale</strong>'];
 		var color, next_color;
