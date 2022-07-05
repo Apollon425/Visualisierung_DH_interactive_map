@@ -53,12 +53,12 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 		return 	d > 0.65  ? '#00441b' :
 			d > 0.6  ? '#006d2c' :
 			d > 0.55  ? '#238b45' :
-			d > 0.5  ? '#41ae76' :
-			d > 0.45  ? '#66c2a4' :
-			d > 0.4   ? '#99d8c9' :
-			d > 0.35   ? '#ccece6' :
-			d > 0.3 ? '#e5f5f9':
-			d > 0.25 ? '#f7fcfd': '#fcfcfa';
+			d > 0.5  ? '#41ab5d' :
+			d > 0.45  ? '#74c476' :
+			d > 0.4   ? '#a1d99b' :
+			d > 0.35   ? '#c7e9c0' :
+			d > 0.3 ? '#e5f5e0':
+			d > 0.25 ? '#f7fcf5': '#fcfcfa';
 
 	}
 
@@ -141,7 +141,7 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 		var ndvi_grades = [0, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65];
 		//var grades = [0.65, 0.6, 0.55, 0.5, 0.45, 0.4, 0.35, 0.3, 0.25, 0];
 
-		var labels = [];
+		var labels = ['<strong>NDVI color scale</strong>'];
 		var color, next_color;
 
 		for (var i = 0; i < ndvi_grades.length; i++) {
