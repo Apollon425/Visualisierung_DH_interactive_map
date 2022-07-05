@@ -1,6 +1,12 @@
+var linkOT = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv';
+var linkST = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_SBZ.csv';
+var currentValue = linkST;
+function handleClick(myRadio) {
+  currentValue = myRadio;
+}
 
 function makeChart(players) {
-
+  
 
   var playerLabels = players.map(function(d) {
     return d.Name;
@@ -29,12 +35,7 @@ function makeChart(players) {
 }
   
 
-var linkOT = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv';
-var linkST = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_SBZ.csv';
-var currentValue = linkOT;
-function handleClick(myRadio) {
-      currentValue = myRadio;
-}
+
 
 
   // Request data using D3
