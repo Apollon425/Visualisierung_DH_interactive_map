@@ -30,5 +30,5 @@ function makeChart(players) {
   
   // Request data using D3
   d3
-    .csv('https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/test.csv')
+    .csv('https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv')
     .then(makeChart);
