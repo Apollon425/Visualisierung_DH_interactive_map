@@ -1,9 +1,20 @@
 var linkOT = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv';
 var linkST = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_SBZ.csv';
-var currentValue = linkST;
+var currentValue = linkOT;
 
-function handleClick(myRadio) {
-  currentValue = myRadio;
+function handleClick(radio_input) {
+  if( radio_input == 0){
+    console.log("OT");
+    currentValue = linkOT;
+    redraw_chart();
+  }
+  else if(radio_input == 1){
+    console.log("ST");
+    currentValue = linkST;
+    redraw_chart();
+  }
+
+  
 }
 
 function makeChart(players) {
@@ -17,6 +28,7 @@ function makeChart(players) {
 
   var chart = new Chart('chart', {
     type: "horizontalBar",
+    
     options: {
       maintainAspectRatio: false,
       legend: {
@@ -36,7 +48,12 @@ function makeChart(players) {
   
 
 
+function redraw_chart(){
+  d3
+  .csv(currentValue)
+  .then(makeChart); // vorher müsste noch der alte plot entfernt werden, sonst liegen dann meherer übereinander
 
+}
 
   // Request data using D3
   d3
