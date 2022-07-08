@@ -4,8 +4,6 @@ var currentValue = linkST;
 
 function handleClick(myRadio) {
   currentValue = myRadio;
-
-
 }
 
 function makeChart(players) {
