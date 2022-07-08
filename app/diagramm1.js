@@ -2,31 +2,37 @@ var linkOT = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_int
 var linkST = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_SBZ.csv';
 var currentValue = linkOT;
 
-function handleClick(radio_input) {
-  if( radio_input == 0){
-    console.log("OT");
-    currentValue = linkOT;
-    redraw_chart();
-  }
-  else if(radio_input == 1){
-    console.log("ST");
-    currentValue = linkST;
-    redraw_chart();
-  }
+// bind radio buttons to change the value of currentValue:
+
+const radioButtons = document.querySelectorAll('input[name="myRadios"]');
+Array.prototype.forEach.call(radioButtons, function(btn) {
+  btn.addEventListener('change', function(){
+    if(this.value == "linkOT"){
+      currentValue = linkOT;
+      redraw_chart();
+    }
+    else if(this.value == "linkST"){
+      currentValue = linkST;
+      redraw_chart();
+
+    };
 
   
-}
+  });
+});
+
 
 function makeChart(players) {
   
+
   var playerLabels = players.map(function(d) {
     return d.Name;
   });
   var weeksData = players.map(function(d) {
     return +d.Einkommen;
   });
-
-  var chart = new Chart('chart', {
+  
+  chart = new Chart('chart', {
     type: "horizontalBar",
     
     options: {
@@ -47,11 +53,12 @@ function makeChart(players) {
 }
   
 
-
 function redraw_chart(){
+  chart.destroy()
   d3
+  
   .csv(currentValue)
-  .then(makeChart); // vorher müsste noch der alte plot entfernt werden, sonst liegen dann meherer übereinander
+  .then(makeChart); 
 
 }
 
@@ -59,9 +66,13 @@ function redraw_chart(){
   d3
     .csv(currentValue)
     .then(makeChart); 
+
+    d3.s
     
     /*
     d3
     .csv('https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv')
     .then(makeChart);
     */
+
+
