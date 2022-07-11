@@ -33,4 +33,6 @@ csv(data).then(data => {data.forEach(d => {d.Nettoeinkommen = +d.Nettoeinkommen;
 });
     // {console.log(data);});
 
+//TEST:
+
 
