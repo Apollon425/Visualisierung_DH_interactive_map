@@ -1,0 +1,889 @@
+Jahr;Gebiet;Sachmerkmal;Nettoeinkommen
+2011;Zentrum;Persoenliches Einkommen;1119,47039665305
+2011;Zentrum-Ost;Persoenliches Einkommen;1265,99205817462
+2011;Zentrum-Suedost;Persoenliches Einkommen;951,277296249952
+2011;Zentrum-Sued;Persoenliches Einkommen;1180,7159897981
+2011;Zentrum-West;Persoenliches Einkommen;1213,21350451776
+2011;Zentrum-Nordwest;Persoenliches Einkommen;1405,6300418508
+2011;Zentrum-Nord;Persoenliches Einkommen;1084,97325293465
+2011;Schoenefeld-Abtnaundorf;Persoenliches Einkommen;975,37098789051
+2011;Schoenefeld-Ost;Persoenliches Einkommen;974,202607787242
+2011;Mockau-Sued;Persoenliches Einkommen;972,210381412116
+2011;Mockau-Nord;Persoenliches Einkommen;931,158517991913
+2011;Thekla;Persoenliches Einkommen;1109,92193541225
+2011;Plaussig-Portitz;Persoenliches Einkommen;1149,51537354595
+2011;Neustadt-Neuschoenefeld;Persoenliches Einkommen;796,53307517394
+2011;Volkmarsdorf;Persoenliches Einkommen;760,269113556662
+2011;Anger-Crottendorf;Persoenliches Einkommen;1036,08326643794
+2011;Sellerhausen-Stuenz;Persoenliches Einkommen;966,031591614398
+2011;Paunsdorf;Persoenliches Einkommen;952,221711507292
+2011;Heiterblick;Persoenliches Einkommen;1290,13999439191
+2011;Moelkau;Persoenliches Einkommen;1210,10125715544
+2011;Engelsdorf;Persoenliches Einkommen;1172,7805470797
+2011;Baalsdorf;Persoenliches Einkommen;1187,2629588148
+2011;Althen-Kleinpoesna;Persoenliches Einkommen;1142,1556754857
+2011;Reudnitz-Thonberg;Persoenliches Einkommen;854,039697968048
+2011;Stoetteritz;Persoenliches Einkommen;1049,7576702688
+2011;Probstheida;Persoenliches Einkommen;1106,592797064
+2011;Meusdorf;Persoenliches Einkommen;988,702247739471
+2011;Liebertwolkwitz;Persoenliches Einkommen;1118,4785540424
+2011;Holzhausen;Persoenliches Einkommen;1141,15295702758
+2011;Suedvorstadt;Persoenliches Einkommen;1157,42380208836
+2011;Connewitz;Persoenliches Einkommen;1076,68510337047
+2011;Marienbrunn;Persoenliches Einkommen;1082,86720994423
+2011;Loessnig;Persoenliches Einkommen;1046,24614547265
+2011;Doelitz-Doesen,Persoenliches Einkommen,1149;"80949230727""";1412,16889493875
+2011;Schleussig,Persoenliches Einkommen,1164;"56017966956""";1359,60813260693
+2011;Plagwitz,Persoenliches Einkommen,1225;"02248661079""";1093,46501312475
+2011;Kleinzschocher,Persoenliches Einkommen,960;"714072472308""";1076,64475640535
+2011;Grosszschocher,Persoenliches Einkommen,1095;"87639447864""";1244,90029386024
+2011;Knautkleeberg-Knauthain,Persoenliches Einkommen,1150;"6422073346""";1232,43729314193
+2011;Hartmannsdorf-Knautnaundorf,Persoenliches Einkommen,1097;"4459160057""";1264,94830672396
+2011;Schoenau,Persoenliches Einkommen,1044;"99386350261""";1162,33047745411
+2011;Gruenau-Ost,Persoenliches Einkommen,1063;"50109594185""";988,637325724793
+2011;Gruenau-Mitte,Persoenliches Einkommen,928;"989237574649""";1008,3882179928
+2011;Gruenau-Siedlung,Persoenliches Einkommen,1198;"66100062977""";1179,55455614937
+2011;Lausen-Gruenau,Persoenliches Einkommen,976;"025968696877""";1089,7928100014
+2011;Gruenau-Nord,Persoenliches Einkommen,895;"112599069049""";949,678626197639
+2011;Miltitz,Persoenliches Einkommen,1181;"71001321242""";1120,07331549898
+2011;Lindenau,Persoenliches Einkommen,893;"739774758912""";925,505862028256
+2011;Altlindenau,Persoenliches Einkommen,1025;"93236873067""";917,847018554694
+2011;Neulindenau,Persoenliches Einkommen,1077;"43033609746""";923,79643525511
+2011;Leutzsch,Persoenliches Einkommen,1133;"13320492051""";1193,83285031344
+2011;Boehlitz-Ehrenberg,Persoenliches Einkommen,1080;"37539931653""";1151,12898232979
+2011;Burghausen-Rueckmarsdorf,Persoenliches Einkommen,1153;"49380836073""";1241,97067368001
+2011;Moeckern,Persoenliches Einkommen,994;"130490681782""";1133,31441752456
+2011;Wahren,Persoenliches Einkommen,1111;"27972870703""";1405,98981630026
+2011;Luetzschena-Stahmeln,Persoenliches Einkommen,1107;"99210573493""";1301,52504462107
+2011;Lindenthal,Persoenliches Einkommen,1147;"21505221923""";1297,66980685371
+2011;Gohlis-Sued,Persoenliches Einkommen,1164;"01892795164""";1406,25552988931
+2011;Gohlis-Mitte,Persoenliches Einkommen,1240;"11222698576""";1375,42441455985
+2011;Gohlis-Nord,Persoenliches Einkommen,1158;"22687294858""";1210,76806791149
+2011;Eutritzsch,Persoenliches Einkommen,1170;"86064854204""";1212,19847144958
+2011;Seehausen,Persoenliches Einkommen,1215;"85207009075""";1271,15464892238
+2011;Wiederitzsch,Persoenliches Einkommen,1182;"25930901437""";1319,88118164136
+2011;Mitte,Persoenliches Einkommen,1232;"61291070668""";1230,00720998546
+2011;Nordost,Persoenliches Einkommen,997;"115176850823""";1105,8246858236
+2011;Ost,Persoenliches Einkommen,990;"597956224431""";1057,31540762597
+2011;Suedost,Persoenliches Einkommen,1022;"17417273885""";1171,27304150874
+2011;Sued,Persoenliches Einkommen,1086;"11466049852""";1166,47555024222
+2011;Suedwest,Persoenliches Einkommen,1084;"33778742868""";1139,41247264541
+2011;West,Persoenliches Einkommen,1028;"50127157781""";1013,11230209569
+2011;Alt-West,Persoenliches Einkommen,1060;"35697905217""";1086,54810504991
+2011;Nordwest,Persoenliches Einkommen,1006;"9258674381""";1323,04317626035
+2011;Nord,Persoenliches Einkommen,1201;"27377553616""";1298,06138486479
+2011;Stadt Leipzig,Persoenliches Einkommen,1066;"01430298254""";1151,83593033199
+2011;Zentrum,Haushaltseinkommen,1087;"80187132455""";1506,23161714557
+2011;Zentrum-Ost,Haushaltseinkommen,1466;"06678370279""";1624,72982120396
+2011;Zentrum-Suedost,Haushaltseinkommen,1202;"33006688454""";1285,07606531966
+2011;Zentrum-Sued,Haushaltseinkommen,1544;"51700734588""";1639,94041024454
+2011;Zentrum-West,Haushaltseinkommen,1530;"99167808915""";1609,87757422425
+2011;Zentrum-Nordwest,Haushaltseinkommen,2131;"48217842793""";2424,67372344453
+2011;Zentrum-Nord,Haushaltseinkommen,1471;"54674208864""";1495,37184162614
+2011;Schoenefeld-Abtnaundorf,Haushaltseinkommen,1096;"48429727869""";1443,42868587258
+2011;Schoenefeld-Ost,Haushaltseinkommen,1342;"257274574""";1525,0284795009
+2011;Mockau-Sued,Haushaltseinkommen,1269;"23100664899""";1532,18437086573
+2011;Mockau-Nord,Haushaltseinkommen,1236;"96250899009""";1362,48263767751
+2011;Thekla,Haushaltseinkommen,1370;"00408535438""";1335,62976604383
+2011;Plaussig-Portitz,Haushaltseinkommen,1900;"90504995806""";1963,62971455684
+2011;Neustadt-Neuschoenefeld;Haushaltseinkommen;1054,25718617405
+2011;Volkmarsdorf;Haushaltseinkommen;1047,74497422666
+2011;Anger-Crottendorf;Haushaltseinkommen;1254,69849432713
+2011;Sellerhausen-Stuenz;Haushaltseinkommen;1390,1222466554
+2011;Paunsdorf;Haushaltseinkommen;1171,40980373416
+2011;Heiterblick;Haushaltseinkommen;1704,69336773647
+2011;Moelkau;Haushaltseinkommen;1759,86436751337
+2011;Engelsdorf;Haushaltseinkommen;1888,68315962427
+2011;Baalsdorf;Haushaltseinkommen;2018,93850469875
+2011;Althen-Kleinpoesna;Haushaltseinkommen;2059,33262514847
+2011;Reudnitz-Thonberg;Haushaltseinkommen;1225,63384696266
+2011;Stoetteritz;Haushaltseinkommen;1285,39620352677
+2011;Probstheida;Haushaltseinkommen;1519,65445088785
+2011;Meusdorf;Haushaltseinkommen;1430,64883269071
+2011;Liebertwolkwitz;Haushaltseinkommen;1565,50446778854
+2011;Holzhausen;Haushaltseinkommen;1685,31618581153
+2011;Suedvorstadt;Haushaltseinkommen;1724,68165185522
+2011;Connewitz;Haushaltseinkommen;1274,46624544129
+2011;Marienbrunn;Haushaltseinkommen;1369,69025298186
+2011;Loessnig;Haushaltseinkommen;1445,93381361823
+2011;Doelitz-Doesen;Haushaltseinkommen;1628,12524785644
+2011;Schleussig;Haushaltseinkommen;2020,46879303258
+2011;Plagwitz;Haushaltseinkommen;1464,8733188789
+2011;Kleinzschocher;Haushaltseinkommen;1175,4458814546
+2011;Grosszschocher;Haushaltseinkommen;1321,16542390647
+2011;Knautkleeberg-Knauthain;Haushaltseinkommen;2053,57579229062
+2011;Hartmannsdorf-Knautnaundorf;Haushaltseinkommen;1596,72892544055
+2011;Schoenau;Haushaltseinkommen;1252,88436198312
+2011;Gruenau-Ost;Haushaltseinkommen;1263,23343382768
+2011;Gruenau-Mitte;Haushaltseinkommen;1209,37037498942
+2011;Gruenau-Siedlung;Haushaltseinkommen;1835,78018343409
+2011;Lausen-Gruenau;Haushaltseinkommen;1345,7974299631
+2011;Gruenau-Nord;Haushaltseinkommen;1198,08518813836
+2011;Miltitz;Haushaltseinkommen;1783,88374181074
+2011;Lindenau;Haushaltseinkommen;1069,5424105696
+2011;Altlindenau;Haushaltseinkommen;1297,51156174441
+2011;Neulindenau;Haushaltseinkommen;1288,69477487803
+2011;Leutzsch;Haushaltseinkommen;1466,629812917
+2011;Boehlitz-Ehrenberg;Haushaltseinkommen;1375,83737643726
+2011;Burghausen-Rueckmarsdorf;Haushaltseinkommen;1911,19921259334
+2011;Moeckern;Haushaltseinkommen;1333,78673348031
+2011;Wahren;Haushaltseinkommen;1348,30224824004
+2011;Luetzschena-Stahmeln;Haushaltseinkommen;1824,2078382524
+2011;Lindenthal;Haushaltseinkommen;1654,99643093032
+2011;Gohlis-Sued;Haushaltseinkommen;1760,77627932225
+2011;Gohlis-Mitte;Haushaltseinkommen;1789,85804262486
+2011;Gohlis-Nord;Haushaltseinkommen;1377,31397346212
+2011;Eutritzsch;Haushaltseinkommen;1382,84033117857
+2011;Seehausen;Haushaltseinkommen;1849,51649078219
+2011;Wiederitzsch;Haushaltseinkommen;1816,99664116039
+2011;Mitte;Haushaltseinkommen;1571,98432698646
+2011;Nordost;Haushaltseinkommen;1287,00066983994
+2011;Ost;Haushaltseinkommen;1360,5031041919
+2011;Suedost;Haushaltseinkommen;1358,66622109542
+2011;Sued;Haushaltseinkommen;1463,90998802506
+2011;Suedwest;Haushaltseinkommen;1411,71421186975
+2011;West;Haushaltseinkommen;1296,9710071978
+2011;Alt-West;Haushaltseinkommen;1400,41025946266
+2011;Nordwest;Haushaltseinkommen;1352,94354483837
+2011;Nord;Haushaltseinkommen;1671,65774316951
+2011;Stadt Leipzig;Haushaltseinkommen;1414
+2013;Zentrum;Persoenliches Einkommen;1387,20640125823
+2013;Zentrum-Ost;Persoenliches Einkommen;1466,09414682086
+2013;Zentrum-Suedost;Persoenliches Einkommen;1036,31881766262
+2013;Zentrum-Sued;Persoenliches Einkommen;1198,15650717198
+2013;Zentrum-West;Persoenliches Einkommen;1441,63236840073
+2013;Zentrum-Nordwest;Persoenliches Einkommen;1557,75353350179
+2013;Zentrum-Nord;Persoenliches Einkommen;1293,83514847689
+2013;Schoenefeld-Abtnaundorf;Persoenliches Einkommen;1095,27904515581
+2013;Schoenefeld-Ost;Persoenliches Einkommen;1054,69096396352
+2013;Mockau-Sued;Persoenliches Einkommen;1127,460838546
+2013;Mockau-Nord;Persoenliches Einkommen;1065,65108405532
+2013;Thekla;Persoenliches Einkommen;1107,4890038051
+2013;Plaussig-Portitz;Persoenliches Einkommen;1238,79973466992
+2013;Neustadt-Neuschoenefeld;Persoenliches Einkommen;892,772742117413
+2013;Volkmarsdorf;Persoenliches Einkommen;797,784691497263
+2013;Anger-Crottendorf;Persoenliches Einkommen;1008,20571211122
+2013;Sellerhausen-Stuenz;Persoenliches Einkommen;1156,22211303367
+2013;Paunsdorf;Persoenliches Einkommen;1152,56610109651
+2013;Heiterblick;Persoenliches Einkommen;1180,99211309959
+2013;Moelkau;Persoenliches Einkommen;1302,74935110407
+2013;Engelsdorf;Persoenliches Einkommen;1278,45502803295
+2013;Baalsdorf;Persoenliches Einkommen;1328,59423540916
+2013;Althen-Kleinpoesna;Persoenliches Einkommen;1278,07763149338
+2013;Reudnitz-Thonberg;Persoenliches Einkommen;1113,09459551184
+2013;Stoetteritz;Persoenliches Einkommen;1183,84084277403
+2013;Probstheida;Persoenliches Einkommen;1376,09445557938
+2013;Meusdorf;Persoenliches Einkommen;1124,7572536232
+2013;Liebertwolkwitz;Persoenliches Einkommen;1198,21390782151
+2013;Holzhausen;Persoenliches Einkommen;1251,66216165169
+2013;Suedvorstadt;Persoenliches Einkommen;1194,97479229623
+2013;Connewitz;Persoenliches Einkommen;1150,30457234274
+2013;Marienbrunn;Persoenliches Einkommen;1158,00289172507
+2013;Loessnig;Persoenliches Einkommen;1073,56135943547
+2013;Doelitz-Doesen,Persoenliches Einkommen,1149;"80949230727""";1326,6731743186
+2013;Schleussig,Persoenliches Einkommen,1164;"56017966956""";1460,5392288974
+2013;Plagwitz,Persoenliches Einkommen,1225;"02248661079""";1554,6294434375
+2013;Kleinzschocher,Persoenliches Einkommen,960;"714072472308""";1271,28469063531
+2013;Grosszschocher,Persoenliches Einkommen,1095;"87639447864""";1153,4565131558
+2013;Knautkleeberg-Knauthain,Persoenliches Einkommen,1150;"6422073346""";1353,79468494812
+2013;Hartmannsdorf-Knautnaundorf,Persoenliches Einkommen,1097;"4459160057""";1424,11613216715
+2013;Schoenau,Persoenliches Einkommen,1044;"99386350261""";1222,43407646404
+2013;Gruenau-Ost,Persoenliches Einkommen,1063;"50109594185""";1090,84425833176
+2013;Gruenau-Mitte,Persoenliches Einkommen,928;"989237574649""";1124,3918743438
+2013;Gruenau-Siedlung,Persoenliches Einkommen,1198;"66100062977""";1444,86328462828
+2013;Lausen-Gruenau,Persoenliches Einkommen,976;"025968696877""";1190,68764239962
+2013;Gruenau-Nord,Persoenliches Einkommen,895;"112599069049""";1054,86356595686
+2013;Miltitz,Persoenliches Einkommen,1181;"71001321242""";1426,32686619538
+2013;Lindenau,Persoenliches Einkommen,893;"739774758912""";1242,16104760904
+2013;Altlindenau,Persoenliches Einkommen,1025;"93236873067""";1235,27428907154
+2013;Neulindenau,Persoenliches Einkommen,1077;"43033609746""";1269,61525082739
+2013;Leutzsch,Persoenliches Einkommen,1133;"13320492051""";1387,01909752618
+2013;Boehlitz-Ehrenberg,Persoenliches Einkommen,1080;"37539931653""";1445,3703806906
+2013;Burghausen-Rueckmarsdorf,Persoenliches Einkommen,1153;"49380836073""";1206,30449688969
+2013;Moeckern,Persoenliches Einkommen,994;"130490681782""";1349,20552415978
+2013;Wahren,Persoenliches Einkommen,1111;"27972870703""";1366,12737946177
+2013;Luetzschena-Stahmeln,Persoenliches Einkommen,1107;"99210573493""";1591,11229952145
+2013;Lindenthal,Persoenliches Einkommen,1147;"21505221923""";1389,06430485442
+2013;Gohlis-Sued,Persoenliches Einkommen,1164;"01892795164""";1623,52095410162
+2013;Gohlis-Mitte,Persoenliches Einkommen,1240;"11222698576""";1572,19709410839
+2013;Gohlis-Nord,Persoenliches Einkommen,1158;"22687294858""";1300,63303149062
+2013;Eutritzsch,Persoenliches Einkommen,1170;"86064854204""";1235,05555764506
+2013;Seehausen,Persoenliches Einkommen,1215;"85207009075""";1361,5663928243
+2013;Wiederitzsch,Persoenliches Einkommen,1182;"25930901437""";1459,76969009838
+2013;Mitte,Persoenliches Einkommen,1232;"61291070668""";1384,11695837427
+2013;Nordost,Persoenliches Einkommen,997;"115176850823""";1184,65173941114
+2013;Ost,Persoenliches Einkommen,990;"597956224431""";1123,81935481143
+2013;Suedost,Persoenliches Einkommen,1022;"17417273885""";1257,10034802975
+2013;Sued,Persoenliches Einkommen,1086;"11466049852""";1286,44377414388
+2013;Suedwest,Persoenliches Einkommen,1084;"33778742868""";1303,83611622658
+2013;West,Persoenliches Einkommen,1028;"50127157781""";1142,61679421887
+2013;Alt-West,Persoenliches Einkommen,1060;"35697905217""";1222,83736578639
+2013;Nordwest,Persoenliches Einkommen,1006;"9258674381""";1319,64840442718
+2013;Nord,Persoenliches Einkommen,1201;"27377553616""";1397,79938034385
+2013;Stadt Leipzig,Persoenliches Einkommen,1066;"01430298254""";1254,31010000498
+2013;Zentrum,Haushaltseinkommen,1087;"80187132455""";1216,52180029784
+2013;Zentrum-Ost,Haushaltseinkommen,1466;"06678370279""";1825,95133532185
+2013;Zentrum-Suedost,Haushaltseinkommen,1202;"33006688454""";1412,49467084589
+2013;Zentrum-Sued,Haushaltseinkommen,1544;"51700734588""";2076,94442784967
+2013;Zentrum-West,Haushaltseinkommen,1530;"99167808915""";2152,00746976083
+2013;Zentrum-Nordwest,Haushaltseinkommen,2131;"48217842793""";2161,32254012688
+2013;Zentrum-Nord,Haushaltseinkommen,1471;"54674208864""";1919,68101645621
+2013;Schoenefeld-Abtnaundorf,Haushaltseinkommen,1096;"48429727869""";1464,78821075254
+2013;Schoenefeld-Ost,Haushaltseinkommen,1342;"257274574""";1326,43145745597
+2013;Mockau-Sued,Haushaltseinkommen,1269;"23100664899""";1444,90752618516
+2013;Mockau-Nord,Haushaltseinkommen,1236;"96250899009""";1425,09257500757
+2013;Thekla,Haushaltseinkommen,1370;"00408535438""";1886,96508254077
+2013;Plaussig-Portitz,Haushaltseinkommen,1900;"90504995806""";2644,88320578223
+2013;Neustadt-Neuschoenefeld;Haushaltseinkommen;1159,88087970223
+2013;Volkmarsdorf;Haushaltseinkommen;1121,38585907255
+2013;Anger-Crottendorf;Haushaltseinkommen;1235,12672932507
+2013;Sellerhausen-Stuenz;Haushaltseinkommen;1494,83198637304
+2013;Paunsdorf;Haushaltseinkommen;1339,13701032442
+2013;Heiterblick;Haushaltseinkommen;2018,66918375491
+2013;Moelkau;Haushaltseinkommen;1595,43761765613
+2013;Engelsdorf;Haushaltseinkommen;1837,03628511558
+2013;Baalsdorf;Haushaltseinkommen;2202,69063269559
+2013;Althen-Kleinpoesna;Haushaltseinkommen;2100,1893439382
+2013;Reudnitz-Thonberg;Haushaltseinkommen;1588,91695221351
+2013;Stoetteritz;Haushaltseinkommen;1351,66730336069
+2013;Probstheida;Haushaltseinkommen;2182,85682582371
+2013;Meusdorf;Haushaltseinkommen;1386,93632496988
+2013;Liebertwolkwitz;Haushaltseinkommen;1644,59464247359
+2013;Holzhausen;Haushaltseinkommen;1478,2650851583
+2013;Suedvorstadt;Haushaltseinkommen;1811,27514183881
+2013;Connewitz;Haushaltseinkommen;1599,35107083485
+2013;Marienbrunn;Haushaltseinkommen;1670,90505283543
+2013;Loessnig;Haushaltseinkommen;1618,30957526657
+2013;Doelitz-Doesen;Haushaltseinkommen;1808,01752345171
+2013;Schleussig;Haushaltseinkommen;2278,17636879203
+2013;Plagwitz;Haushaltseinkommen;1265,80801193247
+2013;Kleinzschocher;Haushaltseinkommen;1328,76550730691
+2013;Grosszschocher;Haushaltseinkommen;1692,18242556473
+2013;Knautkleeberg-Knauthain;Haushaltseinkommen;1789,10799517994
+2013;Hartmannsdorf-Knautnaundorf;Haushaltseinkommen;1788,2423559482
+2013;Schoenau;Haushaltseinkommen;1724,62442304621
+2013;Gruenau-Ost;Haushaltseinkommen;1255,80298127024
+2013;Gruenau-Mitte;Haushaltseinkommen;1227,00172304344
+2013;Gruenau-Siedlung;Haushaltseinkommen;1885,65542144757
+2013;Lausen-Gruenau;Haushaltseinkommen;1586,60774355979
+2013;Gruenau-Nord;Haushaltseinkommen;1171,81884983344
+2013;Miltitz;Haushaltseinkommen;1673,08349676634
+2013;Lindenau;Haushaltseinkommen;1192,11164616649
+2013;Altlindenau;Haushaltseinkommen;1329,10373854041
+2013;Neulindenau;Haushaltseinkommen;1095,64238370805
+2013;Leutzsch;Haushaltseinkommen;1693,95891102654
+2013;Boehlitz-Ehrenberg;Haushaltseinkommen;2004,92132477305
+2013;Burghausen-Rueckmarsdorf;Haushaltseinkommen;2075,46937047654
+2013;Moeckern;Haushaltseinkommen;1514,41963844588
+2013;Wahren;Haushaltseinkommen;1589,18463081644
+2013;Luetzschena-Stahmeln;Haushaltseinkommen;2300,53469607354
+2013;Lindenthal;Haushaltseinkommen;2279,76758751623
+2013;Gohlis-Sued;Haushaltseinkommen;1938,78357864103
+2013;Gohlis-Mitte;Haushaltseinkommen;2113,41067083734
+2013;Gohlis-Nord;Haushaltseinkommen;1524,52593180408
+2013;Eutritzsch;Haushaltseinkommen;1469,84754599768
+2013;Seehausen;Haushaltseinkommen;2022,45816736575
+2013;Wiederitzsch;Haushaltseinkommen;2363,57243061747
+2013;Mitte;Haushaltseinkommen;1597,05974062865
+2013;Nordost;Haushaltseinkommen;1491,57963589401
+2013;Ost;Haushaltseinkommen;1388,56683073784
+2013;Suedost;Haushaltseinkommen;1497,28098069229
+2013;Sued;Haushaltseinkommen;1612,32088559364
+2013;Suedwest;Haushaltseinkommen;1520,31546550113
+2013;West;Haushaltseinkommen;1334,99548165629
+2013;Alt-West;Haushaltseinkommen;1497,36143568816
+2013;Nordwest;Haushaltseinkommen;1695,47569330616
+2013;Nord;Haushaltseinkommen;1810,25693217699
+2013;Stadt Leipzig;Haushaltseinkommen;1549,23950166622
+2015;Zentrum;Persoenliches Einkommen;1195,05979980502
+2015;Zentrum-Ost;Persoenliches Einkommen;1558,46446293875
+2015;Zentrum-Suedost;Persoenliches Einkommen;1179,72791979858
+2015;Zentrum-Sued;Persoenliches Einkommen;1537,93512629354
+2015;Zentrum-West;Persoenliches Einkommen;1583,09343883357
+2015;Zentrum-Nordwest;Persoenliches Einkommen;1807,86573966689
+2015;Zentrum-Nord;Persoenliches Einkommen;1557,63231593991
+2015;Schoenefeld-Abtnaundorf;Persoenliches Einkommen;1204,97758710458
+2015;Schoenefeld-Ost;Persoenliches Einkommen;1121,43398129717
+2015;Mockau-Sued;Persoenliches Einkommen;1326,95009276871
+2015;Mockau-Nord;Persoenliches Einkommen;1155,2437662091
+2015;Thekla;Persoenliches Einkommen;1205,32315560565
+2015;Plaussig-Portitz;Persoenliches Einkommen;1459,96324414859
+2015;Neustadt-Neuschoenefeld;Persoenliches Einkommen;947,360843637112
+2015;Volkmarsdorf;Persoenliches Einkommen;924,338287348429
+2015;Anger-Crottendorf;Persoenliches Einkommen;1320,67706251846
+2015;Sellerhausen-Stuenz;Persoenliches Einkommen;1211,96733997694
+2015;Paunsdorf;Persoenliches Einkommen;1204,22404554281
+2015;Heiterblick;Persoenliches Einkommen;1400,26492239537
+2015;Moelkau;Persoenliches Einkommen;1479,59104909432
+2015;Engelsdorf;Persoenliches Einkommen;1496,44038513096
+2015;Baalsdorf;Persoenliches Einkommen;1810,05333331238
+2015;Althen-Kleinpoesna;Persoenliches Einkommen;1578,78731880601
+2015;Reudnitz-Thonberg;Persoenliches Einkommen;1196,28809748242
+2015;Stoetteritz;Persoenliches Einkommen;1523,60704838855
+2015;Probstheida;Persoenliches Einkommen;1496,00157591398
+2015;Meusdorf;Persoenliches Einkommen;1180,92415912393
+2015;Liebertwolkwitz;Persoenliches Einkommen;1372,95561414884
+2015;Holzhausen;Persoenliches Einkommen;1442,10168264056
+2015;Suedvorstadt;Persoenliches Einkommen;1549,69013456476
+2015;Connewitz;Persoenliches Einkommen;1302,1403693914
+2015;Marienbrunn;Persoenliches Einkommen;1483,60343189898
+2015;Loessnig;Persoenliches Einkommen;1108,65184686779
+2015;Doelitz-Doesen,Persoenliches Einkommen,1149;"80949230727""";1407,49912911147
+2015;Schleussig,Persoenliches Einkommen,1164;"56017966956""";1684,48133255746
+2015;Plagwitz,Persoenliches Einkommen,1225;"02248661079""";1423,2728145209
+2015;Kleinzschocher,Persoenliches Einkommen,960;"714072472308""";1473,03984712155
+2015;Grosszschocher,Persoenliches Einkommen,1095;"87639447864""";1436,3651771435
+2015;Knautkleeberg-Knauthain,Persoenliches Einkommen,1150;"6422073346""";1561,96637182497
+2015;Hartmannsdorf-Knautnaundorf,Persoenliches Einkommen,1097;"4459160057""";1560,26836353576
+2015;Schoenau,Persoenliches Einkommen,1044;"99386350261""";1391,70069053101
+2015;Gruenau-Ost,Persoenliches Einkommen,1063;"50109594185""";1150,6893535596
+2015;Gruenau-Mitte,Persoenliches Einkommen,928;"989237574649""";1331,17178240257
+2015;Gruenau-Siedlung,Persoenliches Einkommen,1198;"66100062977""";1651,74733113122
+2015;Lausen-Gruenau,Persoenliches Einkommen,976;"025968696877""";1380,97460535894
+2015;Gruenau-Nord,Persoenliches Einkommen,895;"112599069049""";1279,71040869068
+2015;Miltitz,Persoenliches Einkommen,1181;"71001321242""";1550,99297336722
+2015;Lindenau,Persoenliches Einkommen,893;"739774758912""";1137,32126233122
+2015;Altlindenau,Persoenliches Einkommen,1025;"93236873067""";1420,20284987721
+2015;Neulindenau,Persoenliches Einkommen,1077;"43033609746""";1288,21677524233
+2015;Leutzsch,Persoenliches Einkommen,1133;"13320492051""";1498,2441177064
+2015;Boehlitz-Ehrenberg,Persoenliches Einkommen,1080;"37539931653""";1656,86571420307
+2015;Burghausen-Rueckmarsdorf,Persoenliches Einkommen,1153;"49380836073""";1617,83574392671
+2015;Moeckern,Persoenliches Einkommen,994;"130490681782""";1425,58952352027
+2015;Wahren,Persoenliches Einkommen,1111;"27972870703""";1486,48365349333
+2015;Luetzschena-Stahmeln,Persoenliches Einkommen,1107;"99210573493""";1462,48748849787
+2015;Lindenthal,Persoenliches Einkommen,1147;"21505221923""";1658,4335221951
+2015;Gohlis-Sued,Persoenliches Einkommen,1164;"01892795164""";1804,09930717605
+2015;Gohlis-Mitte,Persoenliches Einkommen,1240;"11222698576""";1724,8258729023
+2015;Gohlis-Nord,Persoenliches Einkommen,1158;"22687294858""";1412,91136295929
+2015;Eutritzsch,Persoenliches Einkommen,1170;"86064854204""";1454,41243894891
+2015;Seehausen,Persoenliches Einkommen,1215;"85207009075""";1532,34786335259
+2015;Wiederitzsch,Persoenliches Einkommen,1182;"25930901437""";1679,66831269493
+2015;Mitte,Persoenliches Einkommen,1232;"61291070668""";1425,48164667381
+2015;Nordost,Persoenliches Einkommen,997;"115176850823""";1238,51966962911
+2015;Ost,Persoenliches Einkommen,990;"597956224431""";1198,02470412333
+2015;Suedost,Persoenliches Einkommen,1022;"17417273885""";1254,75192836033
+2015;Sued,Persoenliches Einkommen,1086;"11466049852""";1325,853315684
+2015;Suedwest,Persoenliches Einkommen,1084;"33778742868""";1406,81116968633
+2015;West,Persoenliches Einkommen,1028;"50127157781""";1273,69454967225
+2015;Alt-West,Persoenliches Einkommen,1060;"35697905217""";1352,60709704827
+2015;Nordwest,Persoenliches Einkommen,1006;"9258674381""";1454,06644984535
+2015;Nord,Persoenliches Einkommen,1201;"27377553616""";1523,43327724741
+2015;Stadt Leipzig,Persoenliches Einkommen,1066;"01430298254""";1327,75857836967
+2015;Zentrum,Haushaltseinkommen,1087;"80187132455""";1795,50920370952
+2015;Zentrum-Ost,Haushaltseinkommen,1466;"06678370279""";2348,54903677148
+2015;Zentrum-Suedost,Haushaltseinkommen,1202;"33006688454""";1193,04355399358
+2015;Zentrum-Sued,Haushaltseinkommen,1544;"51700734588""";2042,69185058212
+2015;Zentrum-West,Haushaltseinkommen,1530;"99167808915""";2283,19636452758
+2015;Zentrum-Nordwest,Haushaltseinkommen,2131;"48217842793""";2376,30736287979
+2015;Zentrum-Nord,Haushaltseinkommen,1471;"54674208864""";2381,93861818003
+2015;Schoenefeld-Abtnaundorf,Haushaltseinkommen,1096;"48429727869""";1684,94916556228
+2015;Schoenefeld-Ost,Haushaltseinkommen,1342;"257274574""";1352,95030403813
+2015;Mockau-Sued,Haushaltseinkommen,1269;"23100664899""";1666,13650289409
+2015;Mockau-Nord,Haushaltseinkommen,1236;"96250899009""";1726,87657713495
+2015;Thekla,Haushaltseinkommen,1370;"00408535438""";1688,1714832035
+2015;Plaussig-Portitz,Haushaltseinkommen,1900;"90504995806""";2248,30008401663
+2015;Neustadt-Neuschoenefeld;Haushaltseinkommen;1425,43458723165
+2015;Volkmarsdorf;Haushaltseinkommen;1216,77713536551
+2015;Anger-Crottendorf;Haushaltseinkommen;1622,09109987986
+2015;Sellerhausen-Stuenz;Haushaltseinkommen;1538,31983239689
+2015;Paunsdorf;Haushaltseinkommen;1359,00832872344
+2015;Heiterblick;Haushaltseinkommen;1828,5874985648
+2015;Moelkau;Haushaltseinkommen;2375,39749252224
+2015;Engelsdorf;Haushaltseinkommen;2157,11645637386
+2015;Baalsdorf;Haushaltseinkommen;3187,49854579743
+2015;Althen-Kleinpoesna;Haushaltseinkommen;2517,90099018648
+2015;Reudnitz-Thonberg;Haushaltseinkommen;1679,41206059639
+2015;Stoetteritz;Haushaltseinkommen;2088,94975502878
+2015;Probstheida;Haushaltseinkommen;2141,10664230485
+2015;Meusdorf;Haushaltseinkommen;1442,36112849972
+2015;Liebertwolkwitz;Haushaltseinkommen;2119,78303038633
+2015;Holzhausen;Haushaltseinkommen;2324,92217322551
+2015;Suedvorstadt;Haushaltseinkommen;1917,52407818002
+2015;Connewitz;Haushaltseinkommen;1698,58114065749
+2015;Marienbrunn;Haushaltseinkommen;1935,99208101094
+2015;Loessnig;Haushaltseinkommen;1451,17790719138
+2015;Doelitz-Doesen;Haushaltseinkommen;1960,44781549116
+2015;Schleussig;Haushaltseinkommen;2509,46316146504
+2015;Plagwitz;Haushaltseinkommen;1884,32572118795
+2015;Kleinzschocher;Haushaltseinkommen;1855,4972435944
+2015;Grosszschocher;Haushaltseinkommen;1676,54580547317
+2015;Knautkleeberg-Knauthain;Haushaltseinkommen;1885,13488858871
+2015;Hartmannsdorf-Knautnaundorf;Haushaltseinkommen;2274,62824484607
+2015;Schoenau;Haushaltseinkommen;1991,48839327649
+2015;Gruenau-Ost;Haushaltseinkommen;1298,24486234828
+2015;Gruenau-Mitte;Haushaltseinkommen;1434,52606600886
+2015;Gruenau-Siedlung;Haushaltseinkommen;1831,39225160441
+2015;Lausen-Gruenau;Haushaltseinkommen;1454,0983541273
+2015;Gruenau-Nord;Haushaltseinkommen;1256,39482825421
+2015;Miltitz;Haushaltseinkommen;2126,04082977264
+2015;Lindenau;Haushaltseinkommen;1630,50662252789
+2015;Altlindenau;Haushaltseinkommen;1666,48518908535
+2015;Neulindenau;Haushaltseinkommen;1460,92618310222
+2015;Leutzsch;Haushaltseinkommen;2002,46343429312
+2015;Boehlitz-Ehrenberg;Haushaltseinkommen;2178,52617513758
+2015;Burghausen-Rueckmarsdorf;Haushaltseinkommen;2197,02796492884
+2015;Moeckern;Haushaltseinkommen;1989,34713982212
+2015;Wahren;Haushaltseinkommen;2131,92695171173
+2015;Luetzschena-Stahmeln;Haushaltseinkommen;2445,4735046325
+2015;Lindenthal;Haushaltseinkommen;1705,46298075711
+2015;Gohlis-Sued;Haushaltseinkommen;2127,22178626301
+2015;Gohlis-Mitte;Haushaltseinkommen;2276,45681558218
+2015;Gohlis-Nord;Haushaltseinkommen;1507,41097995093
+2015;Eutritzsch;Haushaltseinkommen;1367,53126161063
+2015;Seehausen;Haushaltseinkommen;2110,48671873532
+2015;Wiederitzsch;Haushaltseinkommen;2280,2092094888
+2015;Mitte;Haushaltseinkommen;1889,01230902593
+2015;Nordost;Haushaltseinkommen;1443,08053544643
+2015;Ost;Haushaltseinkommen;1506,88122845234
+2015;Suedost;Haushaltseinkommen;1774,7056021372
+2015;Sued;Haushaltseinkommen;1668,41223761526
+2015;Suedwest;Haushaltseinkommen;1807,13125627589
+2015;West;Haushaltseinkommen;1429,6036265547
+2015;Alt-West;Haushaltseinkommen;1683,66000738947
+2015;Nordwest;Haushaltseinkommen;1814,65430348782
+2015;Nord;Haushaltseinkommen;2015,14374538079
+2015;Stadt Leipzig;Haushaltseinkommen;1665,47509718609
+2017;Zentrum;Persoenliches Einkommen;1447,96220968878
+2017;Zentrum-Ost;Persoenliches Einkommen;1707,7767078668
+2017;Zentrum-Suedost;Persoenliches Einkommen;1162,74304023383
+2017;Zentrum-Sued;Persoenliches Einkommen;1637,51749650758
+2017;Zentrum-West;Persoenliches Einkommen;1783,84788913395
+2017;Zentrum-Nordwest;Persoenliches Einkommen;1923,41772023745
+2017;Zentrum-Nord;Persoenliches Einkommen;1737,51290101109
+2017;Schoenefeld-Abtnaundorf;Persoenliches Einkommen;1340,71127216007
+2017;Schoenefeld-Ost;Persoenliches Einkommen;1236,18403115057
+2017;Mockau-Sued;Persoenliches Einkommen;1266,88307890095
+2017;Mockau-Nord;Persoenliches Einkommen;1216,56876435786
+2017;Thekla;Persoenliches Einkommen;1329,34711248885
+2017;Plaussig-Portitz;Persoenliches Einkommen;1496,59976308774
+2017;Neustadt-Neuschoenefeld;Persoenliches Einkommen;1420,55802987529
+2017;Volkmarsdorf;Persoenliches Einkommen;946,396383044053
+2017;Anger-Crottendorf;Persoenliches Einkommen;1282,69187353148
+2017;Sellerhausen-Stuenz;Persoenliches Einkommen;1266,31003572819
+2017;Paunsdorf;Persoenliches Einkommen;1283,32859339474
+2017;Heiterblick;Persoenliches Einkommen;1636,60981814944
+2017;Moelkau;Persoenliches Einkommen;1593,13945191246
+2017;Engelsdorf;Persoenliches Einkommen;1620,55980647377
+2017;Baalsdorf;Persoenliches Einkommen;1726,693663691
+2017;Althen-Kleinpoesna;Persoenliches Einkommen;1659,74859229751
+2017;Reudnitz-Thonberg;Persoenliches Einkommen;1264,71041816604
+2017;Stoetteritz;Persoenliches Einkommen;1484,89035992886
+2017;Probstheida;Persoenliches Einkommen;1369,81657962768
+2017;Meusdorf;Persoenliches Einkommen;1391,88187402242
+2017;Liebertwolkwitz;Persoenliches Einkommen;1503,73090384943
+2017;Holzhausen;Persoenliches Einkommen;1565,52595688623
+2017;Suedvorstadt;Persoenliches Einkommen;1764,90163957372
+2017;Connewitz;Persoenliches Einkommen;1322,87356459248
+2017;Marienbrunn;Persoenliches Einkommen;1515,5836984607
+2017;Loessnig;Persoenliches Einkommen;1300,58768362128
+2017;Doelitz-Doesen,Persoenliches Einkommen,1149;"80949230727""";1629,92522741037
+2017;Schleussig,Persoenliches Einkommen,1164;"56017966956""";2016,00190561904
+2017;Plagwitz,Persoenliches Einkommen,1225;"02248661079""";1545,15003251269
+2017;Kleinzschocher,Persoenliches Einkommen,960;"714072472308""";1478,86849476936
+2017;Grosszschocher,Persoenliches Einkommen,1095;"87639447864""";1453,67040236266
+2017;Knautkleeberg-Knauthain,Persoenliches Einkommen,1150;"6422073346""";1712,43967923897
+2017;Hartmannsdorf-Knautnaundorf,Persoenliches Einkommen,1097;"4459160057""";1443,05946668469
+2017;Schoenau,Persoenliches Einkommen,1044;"99386350261""";1684,02623773588
+2017;Gruenau-Ost,Persoenliches Einkommen,1063;"50109594185""";1182,69119628374
+2017;Gruenau-Mitte,Persoenliches Einkommen,928;"989237574649""";1269,92524687821
+2017;Gruenau-Siedlung,Persoenliches Einkommen,1198;"66100062977""";1739,58072515402
+2017;Lausen-Gruenau,Persoenliches Einkommen,976;"025968696877""";1380,261600346
+2017;Gruenau-Nord,Persoenliches Einkommen,895;"112599069049""";1194,07532186042
+2017;Miltitz,Persoenliches Einkommen,1181;"71001321242""";1563,47586429453
+2017;Lindenau,Persoenliches Einkommen,893;"739774758912""";1735,64520001298
+2017;Altlindenau,Persoenliches Einkommen,1025;"93236873067""";1391,17558208726
+2017;Neulindenau,Persoenliches Einkommen,1077;"43033609746""";1488,14001614925
+2017;Leutzsch,Persoenliches Einkommen,1133;"13320492051""";1500,28663051087
+2017;Boehlitz-Ehrenberg,Persoenliches Einkommen,1080;"37539931653""";1486,11399089204
+2017;Burghausen-Rueckmarsdorf,Persoenliches Einkommen,1153;"49380836073""";1924,44376348646
+2017;Moeckern,Persoenliches Einkommen,994;"130490681782""";1646,72904302495
+2017;Wahren,Persoenliches Einkommen,1111;"27972870703""";1411,51505626094
+2017;Luetzschena-Stahmeln,Persoenliches Einkommen,1107;"99210573493""";1539,42255724326
+2017;Lindenthal,Persoenliches Einkommen,1147;"21505221923""";1654,83512523133
+2017;Gohlis-Sued,Persoenliches Einkommen,1164;"01892795164""";1820,95300994867
+2017;Gohlis-Mitte,Persoenliches Einkommen,1240;"11222698576""";1700,4009859165
+2017;Gohlis-Nord,Persoenliches Einkommen,1158;"22687294858""";1571,81406118917
+2017;Eutritzsch,Persoenliches Einkommen,1170;"86064854204""";1652,39908135495
+2017;Seehausen,Persoenliches Einkommen,1215;"85207009075""";1674,41448052915
+2017;Wiederitzsch,Persoenliches Einkommen,1182;"25930901437""";1760,49111927625
+2017;Mitte,Persoenliches Einkommen,1232;"61291070668""";1561,8037547802
+2017;Nordost,Persoenliches Einkommen,997;"115176850823""";1242,69052355052
+2017;Ost,Persoenliches Einkommen,990;"597956224431""";1291,57419446603
+2017;Suedost,Persoenliches Einkommen,1022;"17417273885""";1410,79429914148
+2017;Sued,Persoenliches Einkommen,1086;"11466049852""";1518,25164868368
+2017;Suedwest,Persoenliches Einkommen,1084;"33778742868""";1532,00020536336
+2017;West,Persoenliches Einkommen,1028;"50127157781""";1237,43877444886
+2017;Alt-West,Persoenliches Einkommen,1060;"35697905217""";1428,25328021808
+2017;Nordwest,Persoenliches Einkommen,1006;"9258674381""";1555,67514576419
+2017;Nord,Persoenliches Einkommen,1201;"27377553616""";1668,64112830234
+2017;Stadt Leipzig,Persoenliches Einkommen,1066;"01430298254""";1438,05230525735
+2017;Zentrum,Haushaltseinkommen,1087;"80187132455""";1822,65240154552
+2017;Zentrum-Ost,Haushaltseinkommen,1466;"06678370279""";2107,74565174664
+2017;Zentrum-Suedost,Haushaltseinkommen,1202;"33006688454""";1493,28673402692
+2017;Zentrum-Sued,Haushaltseinkommen,1544;"51700734588""";2200,6321561239
+2017;Zentrum-West,Haushaltseinkommen,1530;"99167808915""";2470,29346539658
+2017;Zentrum-Nordwest,Haushaltseinkommen,2131;"48217842793""";3669,96047866921
+2017;Zentrum-Nord,Haushaltseinkommen,1471;"54674208864""";2335,25756725778
+2017;Schoenefeld-Abtnaundorf,Haushaltseinkommen,1096;"48429727869""";1511,40633164421
+2017;Schoenefeld-Ost,Haushaltseinkommen,1342;"257274574""";1643,75741535666
+2017;Mockau-Sued,Haushaltseinkommen,1269;"23100664899""";2039,94856095609
+2017;Mockau-Nord,Haushaltseinkommen,1236;"96250899009""";1830,96875607108
+2017;Thekla,Haushaltseinkommen,1370;"00408535438""";2085,7863257147
+2017;Plaussig-Portitz,Haushaltseinkommen,1900;"90504995806""";2290,38238202855
+2017;Neustadt-Neuschoenefeld;Haushaltseinkommen;1653,09696304185
+2017;Volkmarsdorf;Haushaltseinkommen;1283,91079743916
+2017;Anger-Crottendorf;Haushaltseinkommen;1495,87663814143
+2017;Sellerhausen-Stuenz;Haushaltseinkommen;1573,6151063466
+2017;Paunsdorf;Haushaltseinkommen;1387,93727171953
+2017;Heiterblick;Haushaltseinkommen;2046,95266581408
+2017;Moelkau;Haushaltseinkommen;2242,34110366127
+2017;Engelsdorf;Haushaltseinkommen;2274,52982776967
+2017;Baalsdorf;Haushaltseinkommen;3319,13130165628
+2017;Althen-Kleinpoesna;Haushaltseinkommen;2208,9324775477
+2017;Reudnitz-Thonberg;Haushaltseinkommen;2038,40516276784
+2017;Stoetteritz;Haushaltseinkommen;2087,63485942955
+2017;Probstheida;Haushaltseinkommen;1595,68384294565
+2017;Meusdorf;Haushaltseinkommen;2276,5366256256
+2017;Liebertwolkwitz;Haushaltseinkommen;1906,49454086978
+2017;Holzhausen;Haushaltseinkommen;1940,95653098206
+2017;Suedvorstadt;Haushaltseinkommen;2456,64304557228
+2017;Connewitz;Haushaltseinkommen;1696,98776843684
+2017;Marienbrunn;Haushaltseinkommen;2016,64109420664
+2017;Loessnig;Haushaltseinkommen;1629,2368470985
+2017;Doelitz-Doesen;Haushaltseinkommen;2117,200375905
+2017;Schleussig;Haushaltseinkommen;2268,77652476505
+2017;Plagwitz;Haushaltseinkommen;1674,01825047494
+2017;Kleinzschocher;Haushaltseinkommen;1957,14495211709
+2017;Grosszschocher;Haushaltseinkommen;1885,35047164408
+2017;Knautkleeberg-Knauthain;Haushaltseinkommen;2635,66019576384
+2017;Hartmannsdorf-Knautnaundorf;Haushaltseinkommen;2594,68489575118
+2017;Schoenau;Haushaltseinkommen;1505,85210470052
+2017;Gruenau-Ost;Haushaltseinkommen;1396,04868101466
+2017;Gruenau-Mitte;Haushaltseinkommen;1539,75302447285
+2017;Gruenau-Siedlung;Haushaltseinkommen;1911,5953706629
+2017;Lausen-Gruenau;Haushaltseinkommen;1630,30452588531
+2017;Gruenau-Nord;Haushaltseinkommen;1539,38928119889
+2017;Miltitz;Haushaltseinkommen;2201,13720447953
+2017;Lindenau;Haushaltseinkommen;1386,7318158735
+2017;Altlindenau;Haushaltseinkommen;1669,60185280331
+2017;Neulindenau;Haushaltseinkommen;1675,58927928286
+2017;Leutzsch;Haushaltseinkommen;1819,40069422065
+2017;Boehlitz-Ehrenberg;Haushaltseinkommen;2193,18698417369
+2017;Burghausen-Rueckmarsdorf;Haushaltseinkommen;2265,30988398703
+2017;Moeckern;Haushaltseinkommen;1560,66651583991
+2017;Wahren;Haushaltseinkommen;1861,10277529584
+2017;Luetzschena-Stahmeln;Haushaltseinkommen;2622,90425685834
+2017;Lindenthal;Haushaltseinkommen;2148,38345872816
+2017;Gohlis-Sued;Haushaltseinkommen;2250,94588166564
+2017;Gohlis-Mitte;Haushaltseinkommen;2209,62465150457
+2017;Gohlis-Nord;Haushaltseinkommen;1949,6509808353
+2017;Eutritzsch;Haushaltseinkommen;1771,97621407478
+2017;Seehausen;Haushaltseinkommen;2385,90877363592
+2017;Wiederitzsch;Haushaltseinkommen;2695,89149372653
+2017;Mitte;Haushaltseinkommen;1916,79552487343
+2017;Nordost;Haushaltseinkommen;1610,94357942939
+2017;Ost;Haushaltseinkommen;1603,8141123261
+2017;Suedost;Haushaltseinkommen;1872,23062842161
+2017;Sued;Haushaltseinkommen;1830,85344607919
+2017;Suedwest;Haushaltseinkommen;1963,80292317182
+2017;West;Haushaltseinkommen;1581,05978536825
+2017;Alt-West;Haushaltseinkommen;1712,92473501847
+2017;Nordwest;Haushaltseinkommen;1829,48821990442
+2017;Nord;Haushaltseinkommen;2042,82151272817
+2017;Stadt Leipzig;Haushaltseinkommen;1766,87454785972
+2019;Zentrum;Persoenliches Einkommen;1825,86228741449
+2019;Zentrum-Ost;Persoenliches Einkommen;1685,21465145296
+2019;Zentrum-Suedost;Persoenliches Einkommen;1230,3002590334
+2019;Zentrum-Sued;Persoenliches Einkommen;1723,61974524395
+2019;Zentrum-West;Persoenliches Einkommen;1860,62126157356
+2019;Zentrum-Nordwest;Persoenliches Einkommen;2001,70853058349
+2019;Zentrum-Nord;Persoenliches Einkommen;1810,56807744534
+2019;Schoenefeld-Abtnaundorf;Persoenliches Einkommen;1259,55998182373
+2019;Schoenefeld-Ost;Persoenliches Einkommen;1240,01741084135
+2019;Mockau-Sued;Persoenliches Einkommen;1420,58661145618
+2019;Mockau-Nord;Persoenliches Einkommen;1430,74328519829
+2019;Thekla;Persoenliches Einkommen;1530,32502123099
+2019;Plaussig-Portitz;Persoenliches Einkommen;1419,55465704874
+2019;Neustadt-Neuschoenefeld;Persoenliches Einkommen;1369,30255015992
+2019;Volkmarsdorf;Persoenliches Einkommen;1313,68071525285
+2019;Anger-Crottendorf;Persoenliches Einkommen;1409,39614816647
+2019;Sellerhausen-Stuenz;Persoenliches Einkommen;1355,34594704123
+2019;Paunsdorf;Persoenliches Einkommen;1221,79069260124
+2019;Heiterblick;Persoenliches Einkommen;1669,86813566334
+2019;Moelkau;Persoenliches Einkommen;1747,17302919718
+2019;Engelsdorf;Persoenliches Einkommen;1646,59482378322
+2019;Baalsdorf;Persoenliches Einkommen;1792,76890451475
+2019;Althen-Kleinpoesna;Persoenliches Einkommen;1777,17015870346
+2019;Reudnitz-Thonberg;Persoenliches Einkommen;1477,18994178904
+2019;Stoetteritz;Persoenliches Einkommen;1618,44635487817
+2019;Probstheida;Persoenliches Einkommen;1711,16941491105
+2019;Meusdorf;Persoenliches Einkommen;1467,01648947425
+2019;Liebertwolkwitz;Persoenliches Einkommen;1632,0724625514
+2019;Holzhausen;Persoenliches Einkommen;1992,17694862236
+2019;Suedvorstadt;Persoenliches Einkommen;1866,34072337186
+2019;Connewitz;Persoenliches Einkommen;1530,43065394619
+2019;Marienbrunn;Persoenliches Einkommen;1502,18227044132
+2019;Loessnig;Persoenliches Einkommen;1374,76325896785
+2019;Doelitz-Doesen,Persoenliches Einkommen,1149;"80949230727""";1700
+2019;Schleussig,Persoenliches Einkommen,1164;"56017966956""";1900
+2019;Plagwitz,Persoenliches Einkommen,1225;"02248661079""";1850
+2019;Kleinzschocher,Persoenliches Einkommen,960;"714072472308""";1600
+2019;Grosszschocher,Persoenliches Einkommen,1095;"87639447864""";1600
+2019;Knautkleeberg-Knauthain,Persoenliches Einkommen,1150;"6422073346""";2000
+2019;Hartmannsdorf-Knautnaundorf,Persoenliches Einkommen,1097;"4459160057""";2000
+2019;Schoenau,Persoenliches Einkommen,1044;"99386350261""";1658
+2019;Gruenau-Ost,Persoenliches Einkommen,1063;"50109594185""";1400
+2019;Gruenau-Mitte,Persoenliches Einkommen,928;"989237574649""";1200
+2019;Gruenau-Siedlung,Persoenliches Einkommen,1198;"66100062977""";1800
+2019;Lausen-Gruenau,Persoenliches Einkommen,976;"025968696877""";1500
+2019;Gruenau-Nord,Persoenliches Einkommen,895;"112599069049""";1500
+2019;Miltitz,Persoenliches Einkommen,1181;"71001321242""";1800
+2019;Lindenau,Persoenliches Einkommen,893;"739774758912""";1700
+2019;Altlindenau,Persoenliches Einkommen,1025;"93236873067""";1700
+2019;Neulindenau,Persoenliches Einkommen,1077;"43033609746""";1760
+2019;Leutzsch,Persoenliches Einkommen,1133;"13320492051""";1700
+2019;Boehlitz-Ehrenberg,Persoenliches Einkommen,1080;"37539931653""";1600
+2019;Burghausen-Rueckmarsdorf,Persoenliches Einkommen,1153;"49380836073""";1800
+2019;Moeckern,Persoenliches Einkommen,994;"130490681782""";1700
+2019;Wahren,Persoenliches Einkommen,1111;"27972870703""";1800
+2019;Luetzschena-Stahmeln,Persoenliches Einkommen,1107;"99210573493""";1900
+2019;Lindenthal,Persoenliches Einkommen,1147;"21505221923""";1900
+2019;Gohlis-Sued,Persoenliches Einkommen,1164;"01892795164""";2000
+2019;Gohlis-Mitte,Persoenliches Einkommen,1240;"11222698576""";1950
+2019;Gohlis-Nord,Persoenliches Einkommen,1158;"22687294858""";1900
+2019;Eutritzsch,Persoenliches Einkommen,1170;"86064854204""";1800
+2019;Seehausen,Persoenliches Einkommen,1215;"85207009075""";2000
+2019;Wiederitzsch,Persoenliches Einkommen,1182;"25930901437""";2000
+2019;Mitte,Persoenliches Einkommen,1232;"61291070668""";1668,59106470733
+2019;Nordost,Persoenliches Einkommen,997;"115176850823""";1464,05306198241
+2019;Ost,Persoenliches Einkommen,990;"597956224431""";1461,65285337528
+2019;Suedost,Persoenliches Einkommen,1022;"17417273885""";1685,92511199641
+2019;Sued,Persoenliches Einkommen,1086;"11466049852""";1593,32337391011
+2019;Suedwest,Persoenliches Einkommen,1084;"33778742868""";1647,63245019907
+2019;West,Persoenliches Einkommen,1028;"50127157781""";1401,7768114236
+2019;Alt-West,Persoenliches Einkommen,1060;"35697905217""";1635,66158309849
+2019;Nordwest,Persoenliches Einkommen,1006;"9258674381""";1698,61876061981
+2019;Nord,Persoenliches Einkommen,1201;"27377553616""";1821,25546158716
+2019;Stadt Leipzig,Persoenliches Einkommen,1066;"01430298254""";1592,12676996873
+2019;Zentrum,Haushaltseinkommen,1087;"80187132455""";2500
+2019;Zentrum-Ost,Haushaltseinkommen,1466;"06678370279""";2600
+2019;Zentrum-Suedost,Haushaltseinkommen,1202;"33006688454""";1500
+2019;Zentrum-Sued,Haushaltseinkommen,1544;"51700734588""";2600
+2019;Zentrum-West,Haushaltseinkommen,1530;"99167808915""";2400
+2019;Zentrum-Nordwest,Haushaltseinkommen,2131;"48217842793""";2750
+2019;Zentrum-Nord,Haushaltseinkommen,1471;"54674208864""";2390
+2019;Schoenefeld-Abtnaundorf,Haushaltseinkommen,1096;"48429727869""";2000
+2019;Schoenefeld-Ost,Haushaltseinkommen,1342;"257274574""";2000
+2019;Mockau-Sued,Haushaltseinkommen,1269;"23100664899""";2000
+2019;Mockau-Nord,Haushaltseinkommen,1236;"96250899009""";2050
+2019;Thekla,Haushaltseinkommen,1370;"00408535438""";2100
+2019;Plaussig-Portitz,Haushaltseinkommen,1900;"90504995806""";3500
+2019;Neustadt-Neuschoenefeld;Haushaltseinkommen;1875,74418681174
+2019;Volkmarsdorf;Haushaltseinkommen;1491,59190875707
+2019;Anger-Crottendorf;Haushaltseinkommen;1750,67244578626
+2019;Sellerhausen-Stuenz;Haushaltseinkommen;1741,22297247367
+2019;Paunsdorf;Haushaltseinkommen;1474,58546686503
+2019;Heiterblick;Haushaltseinkommen;2229,75267516864
+2019;Moelkau;Haushaltseinkommen;2765,05917806922
+2019;Engelsdorf;Haushaltseinkommen;2177,16430387218
+2019;Baalsdorf;Haushaltseinkommen;3112,96841366118
+2019;Althen-Kleinpoesna;Haushaltseinkommen;2584,87720177852
+2019;Reudnitz-Thonberg;Haushaltseinkommen;1896,39015327134
+2019;Stoetteritz;Haushaltseinkommen;2234,69183485177
+2019;Probstheida;Haushaltseinkommen;2093,19659155639
+2019;Meusdorf;Haushaltseinkommen;2029,91471418683
+2019;Liebertwolkwitz;Haushaltseinkommen;2210,97059691047
+2019;Holzhausen;Haushaltseinkommen;2777,88261392781
+2019;Suedvorstadt;Haushaltseinkommen;2189,51170113311
+2019;Connewitz;Haushaltseinkommen;1980,44840006026
+2019;Marienbrunn;Haushaltseinkommen;1881,77032122614
+2019;Loessnig;Haushaltseinkommen;1545,9217841366
+2019;Doelitz-Doesen;Haushaltseinkommen;2239,93062954483
+2019;Schleussig;Haushaltseinkommen;2595,36115959694
+2019;Plagwitz;Haushaltseinkommen;2257,25950183873
+2019;Kleinzschocher;Haushaltseinkommen;2057,96510936844
+2019;Grosszschocher;Haushaltseinkommen;1880,32882097735
+2019;Knautkleeberg-Knauthain;Haushaltseinkommen;2912,20418890431
+2019;Hartmannsdorf-Knautnaundorf;Haushaltseinkommen;2353,1330096447
+2019;Schoenau;Haushaltseinkommen;2024,75278473239
+2019;Gruenau-Ost;Haushaltseinkommen;1355,0734979705
+2019;Gruenau-Mitte;Haushaltseinkommen;1618,21968511742
+2019;Gruenau-Siedlung;Haushaltseinkommen;2546,97401947579
+2019;Lausen-Gruenau;Haushaltseinkommen;1521,05607450062
+2019;Gruenau-Nord;Haushaltseinkommen;1757,56208859513
+2019;Miltitz;Haushaltseinkommen;2231,08672396674
+2019;Lindenau;Haushaltseinkommen;2038,49872605856
+2019;Altlindenau;Haushaltseinkommen;1701,39541190945
+2019;Neulindenau;Haushaltseinkommen;1806,70903526823
+2019;Leutzsch;Haushaltseinkommen;1839,21440425008
+2019;Boehlitz-Ehrenberg;Haushaltseinkommen;2115,71543483668
+2019;Burghausen-Rueckmarsdorf;Haushaltseinkommen;2572,55797890112
+2019;Moeckern;Haushaltseinkommen;2335,86609964831
+2019;Wahren;Haushaltseinkommen;2190,13274244203
+2019;Luetzschena-Stahmeln;Haushaltseinkommen;2962,80953914344
+2019;Lindenthal;Haushaltseinkommen;1972,38497214338
+2019;Gohlis-Sued;Haushaltseinkommen;2503,28031525851
+2019;Gohlis-Mitte;Haushaltseinkommen;2224,03343528129
+2019;Gohlis-Nord;Haushaltseinkommen;1987,84340129434
+2019;Eutritzsch;Haushaltseinkommen;1963,37885845533
+2019;Seehausen;Haushaltseinkommen;2676,94475611908
+2019;Wiederitzsch;Haushaltseinkommen;3060,66474269771
+2019;Mitte;Haushaltseinkommen;2033,70496359742
+2019;Nordost;Haushaltseinkommen;1658,76841686627
+2019;Ost;Haushaltseinkommen;1640,38373893781
+2019;Suedost;Haushaltseinkommen;1841,43245633677
+2019;Sued;Haushaltseinkommen;2013,44010484014
+2019;Suedwest;Haushaltseinkommen;2167,86281219855
+2019;West;Haushaltseinkommen;1437,84769481603
+2019;Alt-West;Haushaltseinkommen;1941,81058067859
+2019;Nordwest;Haushaltseinkommen;2060,39025233345
+2019;Nord;Haushaltseinkommen;2217,32243655861
+2019;Stadt Leipzig;Haushaltseinkommen;1891,2279864833
+2021;Zentrum;Persoenliches Einkommen;2000
+2021;Zentrum-Ost;Persoenliches Einkommen;2100
+2021;Zentrum-Suedost;Persoenliches Einkommen;1400
+2021;Zentrum-Sued;Persoenliches Einkommen;2200
+2021;Zentrum-West;Persoenliches Einkommen;1950
+2021;Zentrum-Nordwest;Persoenliches Einkommen;2200
+2021;Zentrum-Nord;Persoenliches Einkommen;1760
+2021;Schoenefeld-Abtnaundorf;Persoenliches Einkommen;1600
+2021;Schoenefeld-Ost;Persoenliches Einkommen;1500
+2021;Mockau-Sued;Persoenliches Einkommen;1700
+2021;Mockau-Nord;Persoenliches Einkommen;1500
+2021;Thekla;Persoenliches Einkommen;1700
+2021;Plaussig-Portitz;Persoenliches Einkommen;2000
+2021;Neustadt-Neuschoenefeld;Persoenliches Einkommen;1500
+2021;Volkmarsdorf;Persoenliches Einkommen;1500
+2021;Anger-Crottendorf;Persoenliches Einkommen;1485
+2021;Sellerhausen-Stuenz;Persoenliches Einkommen;1950
+2021;Paunsdorf;Persoenliches Einkommen;1300
+2021;Heiterblick;Persoenliches Einkommen;2000
+2021;Moelkau;Persoenliches Einkommen;1892
+2021;Engelsdorf;Persoenliches Einkommen;2000
+2021;Baalsdorf;Persoenliches Einkommen;1900
+2021;Althen-Kleinpoesna;Persoenliches Einkommen;1551
+2021;Reudnitz-Thonberg;Persoenliches Einkommen;1700
+2021;Stoetteritz;Persoenliches Einkommen;1800
+2021;Probstheida;Persoenliches Einkommen;2000
+2021;Meusdorf;Persoenliches Einkommen;1700
+2021;Liebertwolkwitz;Persoenliches Einkommen;1800
+2021;Holzhausen;Persoenliches Einkommen;1800
+2021;Suedvorstadt;Persoenliches Einkommen;1800
+2021;Connewitz;Persoenliches Einkommen;1900
+2021;Marienbrunn;Persoenliches Einkommen;1700
+2021;Loessnig;Persoenliches Einkommen;1470
+2021;Doelitz-Doesen,Persoenliches Einkommen,1149;"80949230727""";
+2021;Schleussig,Persoenliches Einkommen,1164;"56017966956""";
+2021;Plagwitz,Persoenliches Einkommen,1225;"02248661079""";
+2021;Kleinzschocher,Persoenliches Einkommen,960;"714072472308""";
+2021;Grosszschocher,Persoenliches Einkommen,1095;"87639447864""";
+2021;Knautkleeberg-Knauthain,Persoenliches Einkommen,1150;"6422073346""";
+2021;Hartmannsdorf-Knautnaundorf,Persoenliches Einkommen,1097;"4459160057""";
+2021;Schoenau,Persoenliches Einkommen,1044;"99386350261""";
+2021;Gruenau-Ost,Persoenliches Einkommen,1063;"50109594185""";
+2021;Gruenau-Mitte,Persoenliches Einkommen,928;"989237574649""";
+2021;Gruenau-Siedlung,Persoenliches Einkommen,1198;"66100062977""";
+2021;Lausen-Gruenau,Persoenliches Einkommen,976;"025968696877""";
+2021;Gruenau-Nord,Persoenliches Einkommen,895;"112599069049""";
+2021;Miltitz,Persoenliches Einkommen,1181;"71001321242""";
+2021;Lindenau,Persoenliches Einkommen,893;"739774758912""";
+2021;Altlindenau,Persoenliches Einkommen,1025;"93236873067""";
+2021;Neulindenau,Persoenliches Einkommen,1077;"43033609746""";
+2021;Leutzsch,Persoenliches Einkommen,1133;"13320492051""";
+2021;Boehlitz-Ehrenberg,Persoenliches Einkommen,1080;"37539931653""";
+2021;Burghausen-Rueckmarsdorf,Persoenliches Einkommen,1153;"49380836073""";
+2021;Moeckern,Persoenliches Einkommen,994;"130490681782""";
+2021;Wahren,Persoenliches Einkommen,1111;"27972870703""";
+2021;Luetzschena-Stahmeln,Persoenliches Einkommen,1107;"99210573493""";
+2021;Lindenthal,Persoenliches Einkommen,1147;"21505221923""";
+2021;Gohlis-Sued,Persoenliches Einkommen,1164;"01892795164""";
+2021;Gohlis-Mitte,Persoenliches Einkommen,1240;"11222698576""";
+2021;Gohlis-Nord,Persoenliches Einkommen,1158;"22687294858""";
+2021;Eutritzsch,Persoenliches Einkommen,1170;"86064854204""";
+2021;Seehausen,Persoenliches Einkommen,1215;"85207009075""";
+2021;Wiederitzsch,Persoenliches Einkommen,1182;"25930901437""";
+2021;Mitte,Persoenliches Einkommen,1232;"61291070668""";
+2021;Nordost,Persoenliches Einkommen,997;"115176850823""";
+2021;Ost,Persoenliches Einkommen,990;"597956224431""";
+2021;Suedost,Persoenliches Einkommen,1022;"17417273885""";
+2021;Sued,Persoenliches Einkommen,1086;"11466049852""";
+2021;Suedwest,Persoenliches Einkommen,1084;"33778742868""";
+2021;West,Persoenliches Einkommen,1028;"50127157781""";
+2021;Alt-West,Persoenliches Einkommen,1060;"35697905217""";
+2021;Nordwest,Persoenliches Einkommen,1006;"9258674381""";
+2021;Nord,Persoenliches Einkommen,1201;"27377553616""";
+2021;Stadt Leipzig,Persoenliches Einkommen,1066;"01430298254""";
+2021;Zentrum,Haushaltseinkommen,1087;"80187132455""";
+2021;Zentrum-Ost,Haushaltseinkommen,1466;"06678370279""";
+2021;Zentrum-Suedost,Haushaltseinkommen,1202;"33006688454""";
+2021;Zentrum-Sued,Haushaltseinkommen,1544;"51700734588""";
+2021;Zentrum-West,Haushaltseinkommen,1530;"99167808915""";
+2021;Zentrum-Nordwest,Haushaltseinkommen,2131;"48217842793""";
+2021;Zentrum-Nord,Haushaltseinkommen,1471;"54674208864""";
+2021;Schoenefeld-Abtnaundorf,Haushaltseinkommen,1096;"48429727869""";
+2021;Schoenefeld-Ost,Haushaltseinkommen,1342;"257274574""";
+2021;Mockau-Sued,Haushaltseinkommen,1269;"23100664899""";
+2021;Mockau-Nord,Haushaltseinkommen,1236;"96250899009""";
+2021;Thekla,Haushaltseinkommen,1370;"00408535438""";
+2021;Plaussig-Portitz,Haushaltseinkommen,1900;"90504995806""";
+2021;Neustadt-Neuschoenefeld;Haushaltseinkommen;1800
+2021;Volkmarsdorf;Haushaltseinkommen;2000
+2021;Anger-Crottendorf;Haushaltseinkommen;2000
+2021;Sellerhausen-Stuenz;Haushaltseinkommen;2200
+2021;Paunsdorf;Haushaltseinkommen;1500
+2021;Heiterblick;Haushaltseinkommen;3000
+2021;Moelkau;Haushaltseinkommen;3000
+2021;Engelsdorf;Haushaltseinkommen;3000
+2021;Baalsdorf;Haushaltseinkommen;3620
+2021;Althen-Kleinpoesna;Haushaltseinkommen;2700
+2021;Reudnitz-Thonberg;Haushaltseinkommen;2009
+2021;Stoetteritz;Haushaltseinkommen;2340
+2021;Probstheida;Haushaltseinkommen;2500
+2021;Meusdorf;Haushaltseinkommen;2100
+2021;Liebertwolkwitz;Haushaltseinkommen;2500
+2021;Holzhausen;Haushaltseinkommen;2500
+2021;Suedvorstadt;Haushaltseinkommen;2500
+2021;Connewitz;Haushaltseinkommen;2200
+2021;Marienbrunn;Haushaltseinkommen;2000
+2021;Loessnig;Haushaltseinkommen;2100
+2021;Doelitz-Doesen;Haushaltseinkommen;2300
+2021;Schleussig;Haushaltseinkommen;2800
+2021;Plagwitz;Haushaltseinkommen;2500
+2021;Kleinzschocher;Haushaltseinkommen;1840
+2021;Grosszschocher;Haushaltseinkommen;2265
+2021;Knautkleeberg-Knauthain;Haushaltseinkommen;3200
+2021;Hartmannsdorf-Knautnaundorf;Haushaltseinkommen;3400
+2021;Schoenau;Haushaltseinkommen;2200
+2021;Gruenau-Ost;Haushaltseinkommen;1900
+2021;Gruenau-Mitte;Haushaltseinkommen;2000
+2021;Gruenau-Siedlung;Haushaltseinkommen;3000
+2021;Lausen-Gruenau;Haushaltseinkommen;2100
+2021;Gruenau-Nord;Haushaltseinkommen;2000
+2021;Miltitz;Haushaltseinkommen;2830
+2021;Lindenau;Haushaltseinkommen;2000
+2021;Altlindenau;Haushaltseinkommen;2000
+2021;Neulindenau;Haushaltseinkommen;2100
+2021;Leutzsch;Haushaltseinkommen;2300
+2021;Boehlitz-Ehrenberg;Haushaltseinkommen;2400
+2021;Burghausen-Rueckmarsdorf;Haushaltseinkommen;3000
+2021;Moeckern;Haushaltseinkommen;2155
+2021;Wahren;Haushaltseinkommen;2360
+2021;Luetzschena-Stahmeln;Haushaltseinkommen;3000
+2021;Lindenthal;Haushaltseinkommen;2200
+2021;Gohlis-Sued;Haushaltseinkommen;2200
+2021;Gohlis-Mitte;Haushaltseinkommen;2500
+2021;Gohlis-Nord;Haushaltseinkommen;2250
+2021;Eutritzsch;Haushaltseinkommen;2000
+2021;Seehausen;Haushaltseinkommen;3000
+2021;Wiederitzsch;Haushaltseinkommen;2500
+2021;Mitte;Haushaltseinkommen;2085,15846954289
+2021;Nordost;Haushaltseinkommen;1874,04935593965
+2021;Ost;Haushaltseinkommen;1963,23552730359
+2021;Suedost;Haushaltseinkommen;2239,98924388035
+2021;Sued;Haushaltseinkommen;2090,3855521987
+2021;Suedwest;Haushaltseinkommen;2354,77400478394
+2021;West;Haushaltseinkommen;1824,01077104773
+2021;Alt-West;Haushaltseinkommen;2183,58724392336
+2021;Nordwest;Haushaltseinkommen;2130,80717881989
+2021;Nord;Haushaltseinkommen;2265,75995705396
+2021;Stadt Leipzig;Haushaltseinkommen;2064,67147397644
