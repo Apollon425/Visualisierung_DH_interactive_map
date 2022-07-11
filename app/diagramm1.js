@@ -61,13 +61,13 @@ Array.prototype.forEach.call(radioButtons, function(btn) {
   });
 });
 
-function makeChart(players) {
+function makeChart(dataLe) {
   
 
-  var playerLabels = players.map(function(d) {
+  var dataLabelLE = dataLe.map(function(d) {
     return d.Name;
   });
-  var weeksData = players.map(function(d) {
+  var mappedDLE = dataLe.map(function(d) {
     return +d.Einkommen;
   });
   
@@ -81,10 +81,10 @@ function makeChart(players) {
       }
     },
     data: {
-      labels: playerLabels,
+      labels: dataLabelLE,
       datasets: [
         {
-          data: weeksData
+          data: mappedDLE
         }
       ]
     }
