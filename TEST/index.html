@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bar Chart Race</title>
     <meta charset="UTF-8" />
   </head>
-
   <body>
-    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-base.min.js"></script>
-    <div id="container"></div>
-  </body>
+
+
+<div id="anychart-embed-1tvaNdD6" class="anychart-embed anychart-embed-1tvaNdD6">
+
+<div id="ac_style_1tvaNdD6" style="display:none;">
+html,
+body,
+#container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+</div>
+<script>(function(){
+function ac_add_to_head(el){
+	var head = document.getElementsByTagName('head')[0];
+	head.insertBefore(el,head.firstChild);
+}
+function ac_add_link(url){
+	var el = document.createElement('link');
+	el.rel='stylesheet';el.type='text/css';el.media='all';el.href=url;
+	ac_add_to_head(el);
+}
+function ac_add_style(css){
+	var ac_style = document.createElement('style');
+	if (ac_style.styleSheet) ac_style.styleSheet.cssText = css;
+	else ac_style.appendChild(document.createTextNode(css));
+	ac_add_to_head(ac_style);
+}
+
+ac_add_style(document.getElementById("ac_style_1tvaNdD6").innerHTML);
+ac_add_style(".anychart-embed-1tvaNdD6{width:600px;height:450px;}");
+})();</script>
+<script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-base.min.js"></script>
+<div id="container"></div>
+<script>
+anychart.onDocumentReady(function () {
+
+  // create a data set on our data
+  var dataSet = anychart.data.set(getData());
+
+  // map data for the first series,
+  // take x from the zero column and value from the first column
+  var firstSeriesData = dataSet.mapAs({ x: 0, value: 2 });
+
+  // map data for the second series,
+  // take x from the zero column and value from the second column
+  var secondSeriesData = dataSet.mapAs({ x: 0, value: 3 });
+
+  // map data for the third series,
+  // take x from the zero column and value from the third column
+  var thirdSeriesData = dataSet.mapAs({ x: 0, value: 4 });
+  
+  // map data for the fourth series,
+  // take x from the zero column and value from the fourth column
+  var fourthSeriesData = dataSet.mapAs({ x: 0, value: 5 });
+
+  // create a line chart
+  var chart = anychart.line();
+
+  // configure the chart title text settings
+  chart.title('Übersicht d. Einkommens über die Zeit in den jeweiligen Stadtgebieten');
+
+  // set the y axis title
+  chart.yAxis().title('Einkommen in €');
+
+  // create the first series with the mapped data
+  var firstSeries = chart.line(firstSeriesData);
+  firstSeries.name('2011');
+
+  // create the second series with the mapped data
+  var secondSeries = chart.line(secondSeriesData);
+  secondSeries.name('2013');
+
+  // create the third series with the mapped data
+  var thirdSeries = chart.line(thirdSeriesData);
+  thirdSeries.name('2015');
+  
+   // create the fourth series with the mapped data
+  var fourthSeries = chart.line(fourthSeriesData);
+  fourthSeries.name('2017');
+
+  // turn the legend on
+  chart.legend().enabled(true);
+
+  // set the container id for the line chart
+  chart.container('container');
+  
+  // draw the line chart
+  chart.draw();
+  
+});
+
+function getData() {
+ /* return [
+    ['1990',16.9,12.2,10.2,5.2],
+    ['1991',17,17.8,10,4.8],
+    ['1993',26.5,23.8,16.8,6.6],
+    ['1994',28.7,22,17.3,9.1],
+    ['1996',35.7,24,22.6,9.2],
+    ['1998',37.2,24.6,22.4,11.2],
+    ['2000',36.5,26.2,23.7,9.9],
+    ['2002',40,34.4,23.8,16.4],
+    ['2004',33.3,28.8,32.5,14.3],
+    ['2006',40.2,32.1,27.5,15.1],
+    ['2008',49.3,37.2,31.4,17.1],
+    ['2010',51.9,42.5,36.1,28.5],
+    ['2012',53.1,43.8,36,24.6],
+    ['2014',63.7,45.9,44.7,31.3],
+    ['2016',66.3,52,42.3,37.2],
+    ['2018',70.1,57.7,49.2,39]
+  ];*/
+  //return 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/EinkommenVerlauf.csv';
+return 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen%20und%20Preise_Nettoeinkommen(1).csv';
+}
+
+</script>
+</div>
+
+</body>
 </html>
