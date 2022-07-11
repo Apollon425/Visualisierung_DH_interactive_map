@@ -1,5 +1,6 @@
 var linkOT = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv';
 var linkST = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_SBZ.csv';
+var BevAnteil = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Bev%C3%B6lkerung/Bev%C3%B6lkerungsbestand_Einwohner.csv';
 var currentValue = linkOT;
 
 // bind radio buttons to change the value of currentValue:
@@ -14,7 +15,10 @@ Array.prototype.forEach.call(radioButtons, function(btn) {
     else if(this.value == "linkST"){
       currentValue = linkST;
       redraw_chart();
-
+    }    
+    else if(this.value == "BevAnteil"){
+      currentValue = BevAnteil;
+      redraw_chart();
     };
 
   
