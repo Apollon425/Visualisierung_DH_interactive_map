@@ -18,6 +18,14 @@ Array.prototype.forEach.call(radioButtons, function(btn) {
     else if(this.value == "linkST"){
       currentValue = linkST;
       redraw_chart();
+    } 
+    else if(this.value == "NDVIST"){
+      currentValue = NDVIST;
+      redraw_chart();
+    } 
+    else if(this.value == "NDVIOT"){
+      currentValue = NDVIOT;
+      redraw_chart();
     }    
     else if(this.value == "BevAnteil"){
       currentValue = BevAnteil;
