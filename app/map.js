@@ -12,17 +12,31 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 
 	/* global statesData */
 	ortsteile = L.geoJson(data_ortsteile, {
-		style: style,
+		style: styleNDVI,
 		onEachFeature: onEachFeature
 	})
 
 	bezirke = L.geoJson(data_stadtbezirke, {
-		style: style,
+		style: styleNDVI,
+		onEachFeature: onEachFeature
+	});
+
+	ortsteile_einkommen = L.geoJson(data_ortsteile, {
+		style2: styleEinkommen,
+		onEachFeature: onEachFeature
+	});
+
+	bezirke_einkommen = L.geoJson(data_stadtbezirke, {
+		style2: styleEinkommen,
 		onEachFeature: onEachFeature
 	});
 
 	var ortsteile_layer = L.layerGroup([ortsteile]);
 	var bezirke_layer = L.layerGroup([bezirke]);
+	var ortsteile_layer_einkommen = L.layerGroup([ortsteile_einkommen]);
+	var bezirke_layer_einkommen = L.layerGroup([bezirke_einkommen]);
+
+
 
     // initialize map
 	var map = L.map('map', {layers: [standard_base_layer, bezirke_layer]}).setView([51.34, 12.36], 11);
@@ -41,14 +55,14 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 	info.update = function (properties) {
 		
 		this._div.innerHTML = '<h4>Bezirk/Ortsteil:</h4>' +  (properties ?
-			'<b>' + properties.Name + '</b><br />' + 'NDVI: ' + Number(properties.NDVI).toFixed(2) : 'Hover over a map section');
+			'<b>' + properties.Name + '</b><br />' + 'NDVI: ' + Number(properties.NDVI).toFixed(2) + '</b><br />' + 'Einkommen: ' + Number(properties.Einkommen).toFixed(0)  : 'Hover over a map section');
 	};
 
 	info.addTo(map);
 
 
 	// get color depending on ndvi value
-	function getColor(d) {
+	function getColorNDVI(d) {
 		return 	d > 0.65  ? '#00441b' :
 			d > 0.6  ? '#006d2c' :
 			d > 0.55  ? '#238b45' :
@@ -61,7 +75,20 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 
 	}
 
-	function style(feature) {
+	function getColorEinkommen(d) {
+		return 	d > 2100  ? '#641E16' :
+			d > 2000  ? '#7B241C' :
+			d > 1900  ? '#922B21 ' :
+			d > 1800 ? '#A93226' :
+			d > 1700  ? '#C0392B' :
+			d > 1600  ? '#CD6155' :
+			d > 1500   ? '#D98880' :
+			d > 1400 ? '#E6B0AA':
+			d > 1300 ? '#F2D7D5': '#F9EBEA';
+
+	}
+
+	function styleNDVI(feature) {
 		
 		return {
 			weight: 2,
@@ -69,7 +96,20 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 			color: 'grey',        
 			dashArray: '3',
 			fillOpacity: 0.7,
-			fillColor: getColor(feature.properties.NDVI)
+			fillColor: getColorNDVI(feature.properties.NDVI)
+		};
+	}
+
+
+	function styleEinkommen(feature) {
+		
+		return {
+			weight: 2,
+			opacity: 1,
+			color: 'grey',        
+			dashArray: '3',
+			fillOpacity: 0.7,
+			fillColor: getColorEinkommen(feature.properties.Einkommen)
 		};
 	}
 
@@ -115,8 +155,10 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 };
 
 	var overlayMaps = {
-		"Bezirke": bezirke_layer,
-		"Ortsteile": ortsteile_layer
+		"NDVI - Bezirke": bezirke_layer,
+		"NDVI - Ortsteile": ortsteile_layer,
+		"Einkommen - Bezirke": bezirke_layer_einkommen,
+		"Einkommen - Ortsteile": ortsteile_layer_einkommen
 	};
 
     
@@ -142,7 +184,7 @@ satellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 			next_color = ndvi_grades[i + 1];
 
 			labels.push(
-				'<i style="background:' + getColor(color) + '"></i> ' +
+				'<i style="background:' + getColorNDVI(color) + '"></i> ' +
 				color + (next_color ? '&ndash;' + next_color : '+'));
 		}
 
