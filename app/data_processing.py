@@ -40,10 +40,10 @@ def read_json_to_df():
     sys.exit()
 
 def add_ndvi_to_geojson():
-    df = pd.read_csv('data/NDVI/2019/ot_ndvi.csv')
+    df = pd.read_csv('data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv')
     name = df['Name']
-    ndvi = df['NDVI']
-    with open('C:\\Users\\richa\\OneDrive\\Studium\\Digital Humanities\\Master\\2. Semester\\Visualisierung für Digital Humanities\\Praktikum\\Projekt\\Visualisierung_DH_interactive_map\\app\\ot2.json', 'r', encoding='utf-8') as f:
+    einkommen = df['Einkommen']
+    with open('D:\\OneDrive\\Studium\\Digital Humanities\\Master\\2. Semester\\Visualisierung für Digital Humanities\\Praktikum\\Projekt 2\\Visualisierung_DH_interactive_map\\app\\ot2.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     for index, name in enumerate(name):
@@ -54,7 +54,7 @@ def add_ndvi_to_geojson():
             print(data["features"][i]["properties"]["Name"])
             if name == data["features"][i]["properties"]["Name"]:
                 print("match!!!!!!!!!")
-                data["features"][i]["properties"]["NDVI"] = ndvi[index]
+                data["features"][i]["properties"]["Einkommen"] = einkommen[index]
                 break;
 
                 
@@ -62,7 +62,10 @@ def add_ndvi_to_geojson():
     for i in range(0, len(data["features"])):
         print(data["features"][i]["properties"])
 
-    with open('C:\\Users\\richa\\OneDrive\\Studium\\Digital Humanities\\Master\\2. Semester\\Visualisierung für Digital Humanities\\Praktikum\\Projekt\\Visualisierung_DH_interactive_map\\app\\ot.json', 'w', encoding='utf-8') as f:
+    # with open('D:\\OneDrive\\Studium\\Digital Humanities\\Master\\2. Semester\\Visualisierung für Digital Humanities\\Praktikum\\Projekt\\Visualisierung_DH_interactive_map\\app\\sbz2.json', 'w', encoding='utf-8') as f:
+    #     json.dump(data, f, ensure_ascii=False)
+
+    with open('D:\\ot2.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False)
 
 if __name__ == '__main__':
