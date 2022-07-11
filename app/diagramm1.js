@@ -5,6 +5,7 @@ var NDVIOT ='https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_inte
 var NDVIST ='https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/NDVI/2019/ndvi_diagrammSB';
 var ZufrGes = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Zufriedenheit/ZufriedenheitDiagramm.csv';
 var BevST ='https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Bev%C3%B6lkerung/Bev%C3%B6lkerungsbestand_EinwohnerOT.csv';
+var BTW21 = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Wahlen/Wahlen_Bundestagswahlen.csv';
 
 var currentValue = linkOT;
 
@@ -27,6 +28,10 @@ Array.prototype.forEach.call(radioButtons, function(btn) {
     } 
     else if(this.value == "BevST"){
       currentValue = BevST;
+      redraw_chart();
+    } 
+    else if(this.value == "BTW21"){
+      currentValue = BTW21;
       redraw_chart();
     } 
     else if(this.value == "NDVIOT"){
