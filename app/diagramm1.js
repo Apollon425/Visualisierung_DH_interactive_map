@@ -1,6 +1,9 @@
 var linkOT = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_OT.csv';
 var linkST = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen_und_Preise_Nettoeinkommen_SBZ.csv';
 var BevAnteil = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Bev%C3%B6lkerung/Bev%C3%B6lkerungsbestand_Einwohner.csv';
+var NDVIOT ='https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/NDVI/2019/ndvi_diagrammOT';
+var NDVIST ='https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/NDVI/2019/ndvi_diagrammSB';
+
 var currentValue = linkOT;
 
 // bind radio buttons to change the value of currentValue:
