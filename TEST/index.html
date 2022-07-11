@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <script src="d3.min.js"> </script>
   </head>
   <body>
 
@@ -41,10 +42,13 @@ ac_add_style(".anychart-embed-1tvaNdD6{width:600px;height:450px;}");
 <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-base.min.js"></script>
 <div id="container"></div>
 <script>
-anychart.onDocumentReady(function () {
+    var currentValue = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/EinkommenVerlauf.csv';
+
+   anychart.onDocumentReady(function () {
 
   // create a data set on our data
-  var dataSet = anychart.data.set(getData());
+  var dataSet = anychart.data.set(currentValue);
+ // var dataSet = anychart.data.set(getData());
 
   // map data for the first series,
   // take x from the zero column and value from the first column
@@ -60,7 +64,15 @@ anychart.onDocumentReady(function () {
   
   // map data for the fourth series,
   // take x from the zero column and value from the fourth column
-  var fourthSeriesData = dataSet.mapAs({ x: 0, value: 5 });
+  var fourthSeriesData = dataSet.mapAs({ x: 0, value: 5 });  
+  
+  // map data for the fourth series,
+  // take x from the zero column and value from the fourth column
+  var fifthSeriesData = dataSet.mapAs({ x: 0, value: 6 });
+
+  // map data for the fourth series,
+  // take x from the zero column and value from the fourth column
+  var sixthSeriesData = dataSet.mapAs({ x: 0, value: 7 });
 
   // create a line chart
   var chart = anychart.line();
@@ -69,7 +81,7 @@ anychart.onDocumentReady(function () {
   chart.title('Übersicht d. Einkommens über die Zeit in den jeweiligen Stadtgebieten');
 
   // set the y axis title
-  chart.yAxis().title('Einkommen in €');
+  chart.yAxis().title('Durchschntl. Einkommen in €');
 
   // create the first series with the mapped data
   var firstSeries = chart.line(firstSeriesData);
@@ -84,8 +96,16 @@ anychart.onDocumentReady(function () {
   thirdSeries.name('2015');
   
    // create the fourth series with the mapped data
-  var fourthSeries = chart.line(fourthSeriesData);
-  fourthSeries.name('2017');
+   var fourthSeries = chart.line(fourthSeriesData);
+  fourthSeries.name('2017');   
+  
+  // create the fourth series with the mapped data
+  var fifthSeries = chart.line(fifthSeriesData);
+  fifthSeries.name('2019');   
+  
+  // create the fourth series with the mapped data
+  var sixthSeries = chart.line(sixthSeriesData);
+  sixthSeries.name('2021');
 
   // turn the legend on
   chart.legend().enabled(true);
@@ -97,6 +117,7 @@ anychart.onDocumentReady(function () {
   chart.draw();
   
 });
+
 
 function getData() {
  /* return [
@@ -118,8 +139,10 @@ function getData() {
     ['2018',70.1,57.7,49.2,39]
   ];*/
   //return 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/EinkommenVerlauf.csv';
-return 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Einkommen/Einkommen%20und%20Preise_Nettoeinkommen(1).csv';
-}
+   return 
+  }
+
+
 
 </script>
 </div>
