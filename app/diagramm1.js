@@ -25,7 +25,6 @@ Array.prototype.forEach.call(radioButtons, function(btn) {
   });
 });
 
-
 function makeChart(players) {
   
 
