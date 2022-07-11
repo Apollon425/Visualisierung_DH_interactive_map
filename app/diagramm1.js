@@ -3,6 +3,7 @@ var linkST = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_int
 var BevAnteil = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Bev%C3%B6lkerung/Bev%C3%B6lkerungsbestand_Einwohner.csv';
 var NDVIOT ='https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/NDVI/2019/ndvi_diagrammOT';
 var NDVIST ='https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/NDVI/2019/ndvi_diagrammSB';
+var ZufrGes = 'https://raw.githubusercontent.com/Apollon425/Visualisierung_DH_interactive_map/main/data/Zufriedenheit/ZufriedenheitDiagramm.csv';
 
 var currentValue = linkOT;
 
@@ -27,6 +28,10 @@ Array.prototype.forEach.call(radioButtons, function(btn) {
       currentValue = NDVIOT;
       redraw_chart();
     }    
+    else if(this.value == "ZufrGes"){
+      currentValue = ZufrGes;
+      redraw_chart();
+    }
     else if(this.value == "BevAnteil"){
       currentValue = BevAnteil;
       redraw_chart();
